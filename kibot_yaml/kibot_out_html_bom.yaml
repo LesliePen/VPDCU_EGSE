@@ -1,0 +1,51 @@
+# KiBot output for generating Interactive HTML BoM
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/ibom.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: bom
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    format: HTML
+    html:
+      title: 'Bill of Materials'
+      datasheet_as_link: "Datasheet"
+      lcsc_link: true
+      logo: false
+      style: modern-blue
+
+    group_fields: ['@MPN_FIELD@', 'Value']
+
+    columns:
+      - "Row"
+      - "@RLT_FIELD@"
+      - "@MPN_FIELD@"
+      - "Quantity Per PCB"
+      - "Description"
+      - "References"
+      - "Value"
+      - "Datasheet"
+      - "Footprint"
+      - "@MAN_FIELD@"
+      - "Supplier Part Number"
+      # - "arrow#"
+      # - "digikey#"
+      # - "farnell#"
+      # - "mouser#"
+      # - "newark#"
+      # - "rs#"
+      # - "tme#"
+
+...
+definitions:
+  NAME: html_bom
+  COMMENT: BOM in HTML format
+  DIR: Manufacturing/Assembly
+  MPN_FIELD: 'Manufacturer Part Number'
+  MAN_FIELD: 'Manufacturer'
+  RLT_FIELD: 'REALTRA Part Number'
