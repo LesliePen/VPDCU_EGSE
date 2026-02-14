@@ -441,10 +441,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -457,9 +462,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -470,7 +480,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KDT_Hierarchical_KiBot.kicad_pro",
+    "filename": "VPDCU_EGSE.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -934,10 +944,77 @@
           "label": "Config",
           "name": "Config",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Name",
+          "name": "Manufacturer Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Farnell Part Number",
+          "name": "Farnell Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Realtra Part Number",
+          "name": "Realtra Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Farnell Price/Stock",
+          "name": "Farnell Price/Stock",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Footprint"
@@ -972,6 +1049,7 @@
     "net_format_name": "KiCad",
     "page_layout_descr_file": "Templates/KDT_Template_GIT.kicad_wks",
     "plot_directory": "Schematic/",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -996,15 +1074,15 @@
     ],
     [
       "f06537ee-772d-44d3-8c50-e0ba41038c9c",
-      "Section A - Title A"
+      "Section A - Connectors"
     ],
     [
       "e744f3ce-03a6-44a6-8792-1447ef232b9a",
-      "Section B - Title B"
+      "Section B - Arduino Mega"
     ],
     [
-      "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
-      "Power - Sequencing"
+      "c3c356cb-e70b-4a34-b904-10be6d538714",
+      "Section C - LCL Selector"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
@@ -1070,7 +1148,7 @@
     "SHEET_NAME_4": "Section A - Title A",
     "SHEET_NAME_40": "......................................",
     "SHEET_NAME_5": "Section B -Title B",
-    "SHEET_NAME_6": "Power - Sequencing",
+    "SHEET_NAME_6": "Section C - Title C",
     "SHEET_NAME_7": "Revision History",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
