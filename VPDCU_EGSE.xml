@@ -4,12 +4,77 @@
     <source>/github/workspace/VPDCU_EGSE.kicad_sch</source>
     <date>Date1</date>
     <tool>Eeschema 9.0.7+1</tool>
-    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.
+
+2)	DO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.
+
+3)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY
+	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.
+
+4)	CONFORMAL COATING IS NOT REQUIRED.
+
+5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
+	WHEN VIEWED FROM THE TOP.</textvar>
     <textvar name="BOARD_NAME">VIKI_PDCU_EGSE_Board</textvar>
     <textvar name="COMPANY">REALTRA SPACE SYSTEMS LIMITED</textvar>
     <textvar name="DESIGNER">Leslie Pen</textvar>
-    <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">bee136a</textvar>
+    <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	FABRICATE PER IPC-6012A CLASS 2.
+
+2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH
+	"Edge_Cuts.GBR" SUFFIX.
+
+	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS
+	DRAWING FOR REFERENCE ONLY.
+
+3)	SEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX 
+	FOR HOLE LOCATIONS.
+
+	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING 
+	FOR REFERENCE ONLY.
+
+4)	SURFACE FINISH: IMMERSION GOLD
+
+5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
+	BE LPI, COLOR BLACK.
+
+6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
+	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.
+
+7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS 
+	SOLDERMASK OPENED IN GERBER.
+
+8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS 
+	AND Pb FREE FOR MANUFACTURING
+
+9)	PCB MATERIAL REQUIREMENTS:
+
+	A.	FLAMMABILITY RATING MUST MEET OR EXCEED 
+		UL94V-0 REQUIREMENTS.
+	B.	Tg 170 C OR EQUIVALENT.
+	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
+		HALOGEN FREE AND APPROVED BY REALTRA SPACE SYSTEMS LIMITED.
+
+10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
+
+	BOARD SIZE				320.000 × 150.000 mm
+	BOARD THICKNESS		1.660 mm
+	TRACE WIDTH			0.200 mm
+	TRACE TO TRACE		0.200 mm
+	MIN. HOLE (PTH)			0.250 mm
+	MIN. HOLE (NPTH)		3.200 mm
+	ANNULAR RING			0.150 mm
+	COPPER TO HOLE		0.254 mm
+	COPPER TO EDGE		0.250 mm
+	HOLE TO HOLE			0.254 mm
+
+11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
+
+12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
+    <textvar name="GIT_HASH_PCB">285d75e</textvar>
     <textvar name="GIT_HASH_SCH">5476777</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">VIKI_PDCU_EGSE</textvar>
@@ -18,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">14-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-14</textvar>
+    <textvar name="RELEASE_DATE">16-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-16</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -66,7 +131,7 @@
     <textvar name="SHEET_NAME_7">Revision History</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">DRAFT</textvar>
+    <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -350,7 +415,6 @@
         <field name="Realtra Part Number">R-CON-1263-26PO</field>
         <field name="Manufacturer Part Number">DD26S3S00S/AA</field>
         <field name="Manufacturer">Amphenol Positronic</field>
-        <field name="Config"/>
         <field name="Footprint">Connector_Dsub:DSUB-26-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x26, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
@@ -359,7 +423,6 @@
       <property name="Realtra Part Number" value="R-CON-1263-26PO"/>
       <property name="Manufacturer Part Number" value="DD26S3S00S/AA"/>
       <property name="Manufacturer" value="Amphenol Positronic"/>
-      <property name="Config" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -374,28 +437,26 @@
       <description>Dsub, Stamped Signal 3A, Right Angle PCB Thru Hole, Hight Temp High Density, FP=8.89mm (0.350in), 15 Socket, Bright Tin Shell, Flash Gold, 4-40 Rear Insert, Ground Tab&amp;Boardlock, Plastic Tray, Close Back</description>
       <fields>
         <field name="Height">12.93</field>
-        <field name="Manufacturer_Name">Amphenol Communications Solutions</field>
-        <field name="Manufacturer_Part_Number">L17HTHES4R1C</field>
+        <field name="Manufacturer">Amphenol Communications Solutions</field>
+        <field name="Manufacturer Part Number">L17HTHES4R1C</field>
         <field name="Mouser Part Number">523-L17HTHES4R1C</field>
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/L17HTHES4R1C?qs=WHK%2FphiOHJaD15gkdKzsig%3D%3D</field>
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-CON-1264-15PO</field>
-        <field name="Config"/>
         <field name="Footprint">L17HTHES4R1C</field>
         <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l17hthxs4rxc.p</field>
         <field name="Description">Dsub, Stamped Signal 3A, Right Angle PCB Thru Hole, Hight Temp High Density, FP=8.89mm (0.350in), 15 Socket, Bright Tin Shell, Flash Gold, 4-40 Rear Insert, Ground Tab&amp;Boardlock, Plastic Tray, Close Back</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="L17HTHES4R1C" description="Dsub, Stamped Signal 3A, Right Angle PCB Thru Hole, Hight Temp High Density, FP=8.89mm (0.350in), 15 Socket, Bright Tin Shell, Flash Gold, 4-40 Rear Insert, Ground Tab&amp;Boardlock, Plastic Tray, Close Back"/>
       <property name="Height" value="12.93"/>
-      <property name="Manufacturer_Name" value="Amphenol Communications Solutions"/>
-      <property name="Manufacturer_Part_Number" value="L17HTHES4R1C"/>
+      <property name="Manufacturer" value="Amphenol Communications Solutions"/>
+      <property name="Manufacturer Part Number" value="L17HTHES4R1C"/>
       <property name="Mouser Part Number" value="523-L17HTHES4R1C"/>
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/L17HTHES4R1C?qs=WHK%2FphiOHJaD15gkdKzsig%3D%3D"/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
       <property name="Realtra Part Number" value="R-CON-1264-15PO"/>
-      <property name="Config" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -618,7 +679,6 @@
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
-        <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
@@ -627,7 +687,6 @@
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
       <property name="Manufacturer" value="VISHAY"/>
       <property name="Manufacturer Part Number" value="CRCW0805100RFKEAHP"/>
-      <property name="Config" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -644,7 +703,6 @@
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
-        <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
@@ -653,7 +711,6 @@
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
       <property name="Manufacturer" value="VISHAY"/>
       <property name="Manufacturer Part Number" value="CRCW0805100RFKEAHP"/>
-      <property name="Config" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -670,7 +727,6 @@
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
-        <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
@@ -679,7 +735,6 @@
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
       <property name="Manufacturer" value="VISHAY"/>
       <property name="Manufacturer Part Number" value="CRCW0805100RFKEAHP"/>
-      <property name="Config" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -696,7 +751,6 @@
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
-        <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
@@ -705,7 +759,6 @@
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
       <property name="Manufacturer" value="VISHAY"/>
       <property name="Manufacturer Part Number" value="CRCW0805100RFKEAHP"/>
-      <property name="Config" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -722,7 +775,6 @@
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
-        <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
@@ -731,7 +783,6 @@
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
       <property name="Manufacturer" value="VISHAY"/>
       <property name="Manufacturer Part Number" value="CRCW0805100RFKEAHP"/>
-      <property name="Config" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -748,7 +799,6 @@
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
-        <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
@@ -757,7 +807,6 @@
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
       <property name="Manufacturer" value="VISHAY"/>
       <property name="Manufacturer Part Number" value="CRCW0805100RFKEAHP"/>
-      <property name="Config" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -774,7 +823,6 @@
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
-        <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
@@ -783,7 +831,6 @@
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
       <property name="Manufacturer" value="VISHAY"/>
       <property name="Manufacturer Part Number" value="CRCW0805100RFKEAHP"/>
-      <property name="Config" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -870,15 +917,135 @@
       <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>850ec0b2-4fdc-4b19-84a8-cfd16309fa71</tstamps>
     </comp>
+    <comp ref="T1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section A - Connectors"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>d55d4503-b9eb-4b47-97f6-b41cb8fe42a6</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section A - Connectors"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>30246ef9-97ae-40c9-9516-6986bef60ee6</tstamps>
+    </comp>
+    <comp ref="T3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section A - Connectors"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>80909d69-5187-4315-a231-4145187daf83</tstamps>
+    </comp>
+    <comp ref="T4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section A - Connectors"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>87ead65e-a2cb-487b-a81d-f6d707ddb511</tstamps>
+    </comp>
+    <comp ref="T5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section A - Connectors"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>b1b9991f-40e6-4bf6-aefb-334ee3de686b</tstamps>
+    </comp>
+    <comp ref="T6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section A - Connectors"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>e280c15c-10a0-451b-8087-e2c740143b1d</tstamps>
+    </comp>
     <comp ref="T7">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
         <field name="Config"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -894,13 +1061,13 @@
     </comp>
     <comp ref="T8">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
         <field name="Config"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -914,15 +1081,55 @@
       <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>99257f67-1013-4a5a-804e-9c6e3f820fcb</tstamps>
     </comp>
+    <comp ref="T9">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section A - Connectors"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>4dbb37d9-50c1-4bdf-82c2-ea0dc97a5fb5</tstamps>
+    </comp>
+    <comp ref="T10">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section A - Connectors"/>
+      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
+      <tstamps>2cc9e9c1-94d1-4bc3-ad7e-f62283821b1a</tstamps>
+    </comp>
     <comp ref="VC1">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
         <field name="Config"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -938,13 +1145,13 @@
     </comp>
     <comp ref="VC2">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
         <field name="Config"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -960,13 +1167,13 @@
     </comp>
     <comp ref="VC3">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
         <field name="Config"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -982,13 +1189,13 @@
     </comp>
     <comp ref="VC4">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
         <field name="Config"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -1004,13 +1211,13 @@
     </comp>
     <comp ref="VC5">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
         <field name="Config"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -1026,13 +1233,13 @@
     </comp>
     <comp ref="VC6">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
         <field name="Config"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -1075,12 +1282,14 @@
       <description>test point</description>
       <fields>
         <field name="Config"/>
+        <field name="Realtra Part Number"/>
         <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Config" value=""/>
+      <property name="Realtra Part Number" value=""/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="test point tp"/>
@@ -2298,14 +2507,74 @@
       <sheetpath names="/Project Architecture/Section B - Arduino Mega/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
       <tstamps>1735680e-2aef-4642-91e9-d8236707d729</tstamps>
     </comp>
-    <comp ref="T15">
+    <comp ref="T11">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section B - Arduino Mega"/>
+      <property name="Sheetfile" value="Section B - TItle B.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section B - Arduino Mega/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>d96d975e-3a0c-4262-81c3-cb46996c6ae5</tstamps>
+    </comp>
+    <comp ref="T12">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section B - Arduino Mega"/>
+      <property name="Sheetfile" value="Section B - TItle B.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section B - Arduino Mega/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>cc061394-552f-46d5-ae39-c38e6944a97d</tstamps>
+    </comp>
+    <comp ref="T13">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Realtra Part Number" value=""/>
+      <property name="Sheetname" value="Section B - Arduino Mega"/>
+      <property name="Sheetfile" value="Section B - TItle B.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Section B - Arduino Mega/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>563e5386-e887-467f-a9df-79fa0c0e0bd8</tstamps>
+    </comp>
+    <comp ref="T15">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Realtra Part Number"/>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2320,12 +2589,12 @@
     </comp>
     <comp ref="T16">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2340,12 +2609,12 @@
     </comp>
     <comp ref="T17">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2360,12 +2629,12 @@
     </comp>
     <comp ref="T18">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2380,12 +2649,12 @@
     </comp>
     <comp ref="T19">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2400,12 +2669,12 @@
     </comp>
     <comp ref="T20">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2420,12 +2689,12 @@
     </comp>
     <comp ref="T21">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2440,12 +2709,12 @@
     </comp>
     <comp ref="T22">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2460,12 +2729,12 @@
     </comp>
     <comp ref="T23">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2480,12 +2749,12 @@
     </comp>
     <comp ref="T24">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2500,12 +2769,12 @@
     </comp>
     <comp ref="T25">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2520,12 +2789,12 @@
     </comp>
     <comp ref="T26">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2540,12 +2809,12 @@
     </comp>
     <comp ref="T27">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2560,12 +2829,12 @@
     </comp>
     <comp ref="T28">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2580,12 +2849,12 @@
     </comp>
     <comp ref="T29">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2600,12 +2869,12 @@
     </comp>
     <comp ref="T30">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2620,12 +2889,12 @@
     </comp>
     <comp ref="T31">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2640,12 +2909,12 @@
     </comp>
     <comp ref="T32">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2660,12 +2929,12 @@
     </comp>
     <comp ref="T33">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2680,12 +2949,12 @@
     </comp>
     <comp ref="T34">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2700,12 +2969,12 @@
     </comp>
     <comp ref="T35">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2720,12 +2989,12 @@
     </comp>
     <comp ref="T36">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2740,12 +3009,12 @@
     </comp>
     <comp ref="T37">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -2760,12 +3029,12 @@
     </comp>
     <comp ref="T38">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -5428,12 +5697,12 @@
     </comp>
     <comp ref="T39">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -5448,12 +5717,12 @@
     </comp>
     <comp ref="T40">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -5468,12 +5737,12 @@
     </comp>
     <comp ref="T41">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -5488,12 +5757,12 @@
     </comp>
     <comp ref="T42">
       <value>TestPoint</value>
-      <footprint>SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Realtra Part Number"/>
-        <field name="Footprint">SamacSys_Parts:TestPoint_Pad_0.6x0.6mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.0x1.0mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
@@ -6392,60 +6661,57 @@
       <node ref="R112" pin="1" pintype="passive"/>
       <node ref="R85" pin="1" pintype="passive"/>
     </net>
-    <net code="53" name="A" class="Default">
-      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
-    </net>
-    <net code="54" name="A0" class="Default">
+    <net code="53" name="A0" class="Default">
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
     </net>
-    <net code="55" name="A1" class="Default">
+    <net code="54" name="A1" class="Default">
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
       <node ref="R28" pin="1" pintype="passive"/>
     </net>
-    <net code="56" name="A2" class="Default">
+    <net code="55" name="A2" class="Default">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="57" name="A3" class="Default">
+    <net code="56" name="A3" class="Default">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
     </net>
-    <net code="58" name="A4" class="Default">
+    <net code="57" name="A4" class="Default">
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="59" name="A5" class="Default">
+    <net code="58" name="A5" class="Default">
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
     </net>
-    <net code="60" name="A6" class="Default">
+    <net code="59" name="A6" class="Default">
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="61" name="A7" class="Default">
+    <net code="60" name="A7" class="Default">
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
     </net>
-    <net code="62" name="A8" class="Default">
+    <net code="61" name="A8" class="Default">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="63" name="A9" class="Default">
+    <net code="62" name="A9" class="Default">
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="64" name="Ardu_5V" class="Default">
+    <net code="63" name="Ardu_5V" class="Default">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="IC1" pin="16" pinfunction="VCC" pintype="power_in"/>
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
@@ -6453,103 +6719,97 @@
       <node ref="J4" pin="36" pinfunction="Pin_36" pintype="passive"/>
       <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="65" name="Ardu_RX" class="Default">
+    <net code="64" name="Ardu_RX" class="Default">
       <node ref="IC1" pin="10" pinfunction="DIN2" pintype="input"/>
       <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="66" name="B" class="Default">
-      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
-    </net>
-    <net code="67" name="C" class="Default">
-      <node ref="J4" pin="33" pinfunction="Pin_33" pintype="passive"/>
-    </net>
-    <net code="68" name="C_K1" class="Default">
+    <net code="65" name="C_K1" class="Default">
       <node ref="K1" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q12" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="69" name="C_K2" class="Default">
+    <net code="66" name="C_K2" class="Default">
       <node ref="K2" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q11" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="70" name="C_K3" class="Default">
+    <net code="67" name="C_K3" class="Default">
       <node ref="K3" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q9" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="71" name="C_K4" class="Default">
+    <net code="68" name="C_K4" class="Default">
       <node ref="K4" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="72" name="C_K5" class="Default">
+    <net code="69" name="C_K5" class="Default">
       <node ref="K5" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q16" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="73" name="C_K6" class="Default">
+    <net code="70" name="C_K6" class="Default">
       <node ref="K7" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q17" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="74" name="C_K7" class="Default">
+    <net code="71" name="C_K7" class="Default">
       <node ref="K9" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q14" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="75" name="C_K8" class="Default">
+    <net code="72" name="C_K8" class="Default">
       <node ref="K10" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q15" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="76" name="C_K9" class="Default">
+    <net code="73" name="C_K9" class="Default">
       <node ref="K6" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q24" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="77" name="C_K10" class="Default">
+    <net code="74" name="C_K10" class="Default">
       <node ref="K8" pin="2" pinfunction="COIL_2" pintype="passive"/>
       <node ref="Q23" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="78" name="DL1" class="Default">
+    <net code="75" name="DL1" class="Default">
       <node ref="DL1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R56" pin="2" pintype="passive"/>
     </net>
-    <net code="79" name="DL2" class="Default">
+    <net code="76" name="DL2" class="Default">
       <node ref="DL2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="R57" pin="2" pintype="passive"/>
     </net>
-    <net code="80" name="DL3" class="Default">
+    <net code="77" name="DL3" class="Default">
       <node ref="DL3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="R62" pin="1" pintype="passive"/>
     </net>
-    <net code="81" name="DL_1_IN" class="Default">
+    <net code="78" name="DL_1_IN" class="Default">
       <node ref="J15" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="82" name="DL_1_OUT" class="Default">
+    <net code="79" name="DL_1_OUT" class="Default">
       <node ref="J15" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R43" pin="2" pintype="passive"/>
     </net>
-    <net code="83" name="DL_2_IN" class="Default">
+    <net code="80" name="DL_2_IN" class="Default">
       <node ref="J15" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="Q13" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="84" name="DL_2_OUT" class="Default">
+    <net code="81" name="DL_2_OUT" class="Default">
       <node ref="J15" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="Q13" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R42" pin="2" pintype="passive"/>
     </net>
-    <net code="85" name="DL_3_IN" class="Default">
+    <net code="82" name="DL_3_IN" class="Default">
       <node ref="J15" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="Q22" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="86" name="DL_3_OUT" class="Default">
+    <net code="83" name="DL_3_OUT" class="Default">
       <node ref="J15" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="Q22" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R44" pin="2" pintype="passive"/>
     </net>
-    <net code="87" name="EL" class="Default">
+    <net code="84" name="EL" class="Default">
       <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R41" pin="1" pintype="passive"/>
     </net>
-    <net code="88" name="GND" class="Default">
+    <net code="85" name="GND" class="Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -6646,97 +6906,97 @@
       <node ref="R74" pin="2" pintype="passive"/>
       <node ref="R75" pin="2" pintype="passive"/>
     </net>
-    <net code="89" name="K1" class="Default">
+    <net code="86" name="K1" class="Default">
       <node ref="Q12" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R66" pin="1" pintype="passive"/>
     </net>
-    <net code="90" name="K2" class="Default">
+    <net code="87" name="K2" class="Default">
       <node ref="Q11" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R67" pin="1" pintype="passive"/>
     </net>
-    <net code="91" name="K3" class="Default">
+    <net code="88" name="K3" class="Default">
       <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R68" pin="1" pintype="passive"/>
     </net>
-    <net code="92" name="K4" class="Default">
+    <net code="89" name="K4" class="Default">
       <node ref="Q10" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R69" pin="1" pintype="passive"/>
     </net>
-    <net code="93" name="K5" class="Default">
+    <net code="90" name="K5" class="Default">
       <node ref="Q16" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R70" pin="1" pintype="passive"/>
     </net>
-    <net code="94" name="K6" class="Default">
+    <net code="91" name="K6" class="Default">
       <node ref="Q17" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R71" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="95" name="K7" class="Default">
+    <net code="92" name="K7" class="Default">
       <node ref="Q14" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R72" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="96" name="K8" class="Default">
+    <net code="93" name="K8" class="Default">
       <node ref="Q15" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R73" pin="1" pintype="passive"/>
     </net>
-    <net code="97" name="K9" class="Default">
+    <net code="94" name="K9" class="Default">
       <node ref="Q24" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R74" pin="1" pintype="passive"/>
     </net>
-    <net code="98" name="K10" class="Default">
+    <net code="95" name="K10" class="Default">
       <node ref="Q23" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R75" pin="1" pintype="passive"/>
     </net>
-    <net code="99" name="K11" class="Default">
+    <net code="96" name="K11" class="Default">
       <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="R76" pin="2" pintype="passive"/>
     </net>
-    <net code="100" name="K12" class="Default">
+    <net code="97" name="K12" class="Default">
       <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="R77" pin="2" pintype="passive"/>
     </net>
-    <net code="101" name="K13" class="Default">
+    <net code="98" name="K13" class="Default">
       <node ref="J4" pin="17" pinfunction="Pin_17" pintype="passive"/>
       <node ref="R78" pin="2" pintype="passive"/>
     </net>
-    <net code="102" name="K14" class="Default">
+    <net code="99" name="K14" class="Default">
       <node ref="J4" pin="18" pinfunction="Pin_18" pintype="passive"/>
       <node ref="R79" pin="2" pintype="passive"/>
     </net>
-    <net code="103" name="K15" class="Default">
+    <net code="100" name="K15" class="Default">
       <node ref="J4" pin="19" pinfunction="Pin_19" pintype="passive"/>
       <node ref="R80" pin="2" pintype="passive"/>
     </net>
-    <net code="104" name="K16" class="Default">
+    <net code="101" name="K16" class="Default">
       <node ref="J4" pin="20" pinfunction="Pin_20" pintype="passive"/>
       <node ref="R81" pin="2" pintype="passive"/>
     </net>
-    <net code="105" name="K17" class="Default">
+    <net code="102" name="K17" class="Default">
       <node ref="J4" pin="21" pinfunction="Pin_21" pintype="passive"/>
       <node ref="R82" pin="2" pintype="passive"/>
     </net>
-    <net code="106" name="K18" class="Default">
+    <net code="103" name="K18" class="Default">
       <node ref="J4" pin="22" pinfunction="Pin_22" pintype="passive"/>
       <node ref="R83" pin="2" pintype="passive"/>
     </net>
-    <net code="107" name="K19" class="Default">
+    <net code="104" name="K19" class="Default">
       <node ref="J4" pin="25" pinfunction="Pin_25" pintype="passive"/>
       <node ref="R84" pin="2" pintype="passive"/>
     </net>
-    <net code="108" name="K20" class="Default">
+    <net code="105" name="K20" class="Default">
       <node ref="J4" pin="24" pinfunction="Pin_24" pintype="passive"/>
       <node ref="R85" pin="2" pintype="passive"/>
     </net>
-    <net code="109" name="LD9_5V" class="Default">
+    <net code="106" name="LD9_5V" class="Default">
       <node ref="J10" pin="25" pinfunction="Pin_25" pintype="passive"/>
       <node ref="K20" pin="3" pinfunction="S2" pintype="passive"/>
       <node ref="K8" pin="3" pinfunction="COM" pintype="passive"/>
@@ -6747,195 +7007,239 @@
       <node ref="SW1" pin="10" pintype="passive"/>
       <node ref="T8" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="110" name="Net-(IC1-C1+)" class="Default">
+    <net code="107" name="Net-(IC1-C1+)" class="Default">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="IC1" pin="1" pinfunction="C1+" pintype="bidirectional"/>
     </net>
-    <net code="111" name="Net-(IC1-C1-)" class="Default">
+    <net code="108" name="Net-(IC1-C1-)" class="Default">
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="IC1" pin="3" pinfunction="C1-" pintype="bidirectional"/>
     </net>
-    <net code="112" name="Net-(IC1-C2+)" class="Default">
+    <net code="109" name="Net-(IC1-C2+)" class="Default">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="IC1" pin="4" pinfunction="C2+" pintype="bidirectional"/>
     </net>
-    <net code="113" name="Net-(IC1-C2-)" class="Default">
+    <net code="110" name="Net-(IC1-C2-)" class="Default">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="IC1" pin="5" pinfunction="C2-" pintype="bidirectional"/>
     </net>
-    <net code="114" name="Net-(IC1-DIN1)" class="Default">
+    <net code="111" name="Net-(IC1-DIN1)" class="Default">
       <node ref="DL7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="IC1" pin="11" pinfunction="DIN1" pintype="input"/>
     </net>
-    <net code="115" name="Net-(IC1-DOUT1)" class="Default">
+    <net code="112" name="Net-(IC1-DOUT1)" class="Default">
       <node ref="DL4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="IC1" pin="14" pinfunction="DOUT1" pintype="output"/>
     </net>
-    <net code="116" name="Net-(IC1-RIN1)" class="Default">
+    <net code="113" name="Net-(IC1-RIN1)" class="Default">
       <node ref="DL5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="IC1" pin="13" pinfunction="RIN1" pintype="input"/>
     </net>
-    <net code="117" name="Net-(IC1-ROUT1)" class="Default">
+    <net code="114" name="Net-(IC1-ROUT1)" class="Default">
       <node ref="DL6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="IC1" pin="12" pinfunction="ROUT1" pintype="output"/>
     </net>
-    <net code="118" name="Net-(IC1-VS+)" class="Default">
+    <net code="115" name="Net-(IC1-VS+)" class="Default">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="IC1" pin="2" pinfunction="VS+" pintype="bidirectional"/>
     </net>
-    <net code="119" name="Net-(IC1-VS-)" class="Default">
+    <net code="116" name="Net-(IC1-VS-)" class="Default">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="IC1" pin="6" pinfunction="VS-" pintype="bidirectional"/>
     </net>
-    <net code="120" name="Net-(J1-Pin_1)" class="Default">
+    <net code="117" name="Net-(J1-Pin_1)" class="Default">
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="T15" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="121" name="Net-(J4-Pin_10)" class="Default">
+    <net code="118" name="Net-(J4-Pin_10)" class="Default">
       <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="T33" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="122" name="Net-(J4-Pin_12)" class="Default">
+    <net code="119" name="Net-(J4-Pin_12)" class="Default">
       <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="T34" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="123" name="Net-(J4-Pin_14)" class="Default">
+    <net code="120" name="Net-(J4-Pin_14)" class="Default">
       <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
       <node ref="T35" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="124" name="Net-(J11-Pad4)" class="Default">
+    <net code="121" name="Net-(J4-Pin_33)" class="Default">
+      <node ref="J4" pin="33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="T13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="122" name="Net-(J7-Pin_5)" class="Default">
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="T11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="123" name="Net-(J7-Pin_6)" class="Default">
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="T12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="124" name="Net-(J10-Pin_10)" class="Default">
+      <node ref="J10" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="T6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="125" name="Net-(J10-Pin_20)" class="Default">
+      <node ref="J10" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="T5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="126" name="Net-(J10-Pin_21)" class="Default">
+      <node ref="J10" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="T4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="127" name="Net-(J10-Pin_22)" class="Default">
+      <node ref="J10" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="T3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="128" name="Net-(J10-Pin_23)" class="Default">
+      <node ref="J10" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="T2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="129" name="Net-(J10-Pin_24)" class="Default">
+      <node ref="J10" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="130" name="Net-(J11-Pad4)" class="Default">
       <node ref="J11" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
     </net>
-    <net code="125" name="Net-(J11-Pad5)" class="Default">
+    <net code="131" name="Net-(J11-Pad5)" class="Default">
       <node ref="J11" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="R34" pin="2" pintype="passive"/>
     </net>
-    <net code="126" name="Net-(J11-Pad8)" class="Default">
+    <net code="132" name="Net-(J11-Pad8)" class="Default">
       <node ref="J11" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="R35" pin="2" pintype="passive"/>
     </net>
-    <net code="127" name="Net-(J11-Pad9)" class="Default">
+    <net code="133" name="Net-(J11-Pad9)" class="Default">
       <node ref="J11" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="R36" pin="2" pintype="passive"/>
     </net>
-    <net code="128" name="Net-(J11-Pad10)" class="Default">
+    <net code="134" name="Net-(J11-Pad10)" class="Default">
       <node ref="J11" pin="10" pinfunction="10" pintype="passive"/>
       <node ref="R38" pin="1" pintype="passive"/>
     </net>
-    <net code="129" name="Net-(J11-Pad12)" class="Default">
+    <net code="135" name="Net-(J11-Pad12)" class="Default">
       <node ref="J11" pin="12" pinfunction="12" pintype="passive"/>
       <node ref="R39" pin="1" pintype="passive"/>
     </net>
-    <net code="130" name="Net-(J11-Pad14)" class="Default">
+    <net code="136" name="Net-(J11-Pad13)" class="Default">
+      <node ref="J11" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="T9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="137" name="Net-(J11-Pad14)" class="Default">
       <node ref="J11" pin="14" pinfunction="14" pintype="passive"/>
       <node ref="R40" pin="1" pintype="passive"/>
     </net>
-    <net code="131" name="Net-(J13-Pad2)" class="Default">
+    <net code="138" name="Net-(J11-Pad15)" class="Default">
+      <node ref="J11" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="T10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="139" name="Net-(J13-Pad2)" class="Default">
       <node ref="J13" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J13" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J13" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="J13" pin="5" pinfunction="5" pintype="passive"/>
     </net>
-    <net code="132" name="Net-(J14-Pad2)" class="Default">
+    <net code="140" name="Net-(J14-Pad2)" class="Default">
       <node ref="J14" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J14" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J14" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="J14" pin="5" pinfunction="5" pintype="passive"/>
     </net>
-    <net code="133" name="Net-(K13-A)" class="Default">
+    <net code="141" name="Net-(K13-A)" class="Default">
       <node ref="K13" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R78" pin="1" pintype="passive"/>
     </net>
-    <net code="134" name="Net-(K14-A)" class="Default">
+    <net code="142" name="Net-(K14-A)" class="Default">
       <node ref="K14" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R79" pin="1" pintype="passive"/>
     </net>
-    <net code="135" name="Net-(K15-A)" class="Default">
+    <net code="143" name="Net-(K15-A)" class="Default">
       <node ref="K15" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R80" pin="1" pintype="passive"/>
     </net>
-    <net code="136" name="Net-(K16-A)" class="Default">
+    <net code="144" name="Net-(K16-A)" class="Default">
       <node ref="K16" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R81" pin="1" pintype="passive"/>
     </net>
-    <net code="137" name="Net-(K17-A)" class="Default">
+    <net code="145" name="Net-(K17-A)" class="Default">
       <node ref="K17" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R82" pin="1" pintype="passive"/>
     </net>
-    <net code="138" name="Net-(K18-A)" class="Default">
+    <net code="146" name="Net-(K18-A)" class="Default">
       <node ref="K18" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R83" pin="1" pintype="passive"/>
     </net>
-    <net code="139" name="Net-(Q3-D)" class="Default">
+    <net code="147" name="Net-(Q3-D)" class="Default">
       <node ref="J14" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="140" name="Net-(Q3-G)" class="Default">
+    <net code="148" name="Net-(Q3-G)" class="Default">
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R41" pin="2" pintype="passive"/>
       <node ref="R65" pin="1" pintype="passive"/>
     </net>
-    <net code="141" name="Net-(Q4-G)" class="Default">
+    <net code="149" name="Net-(Q4-G)" class="Default">
       <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R43" pin="1" pintype="passive"/>
       <node ref="R56" pin="1" pintype="passive"/>
     </net>
-    <net code="142" name="Net-(Q13-G)" class="Default">
+    <net code="150" name="Net-(Q13-G)" class="Default">
       <node ref="Q13" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R42" pin="1" pintype="passive"/>
       <node ref="R57" pin="1" pintype="passive"/>
     </net>
-    <net code="143" name="Net-(Q22-G)" class="Default">
+    <net code="151" name="Net-(Q22-G)" class="Default">
       <node ref="Q22" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R44" pin="1" pintype="passive"/>
       <node ref="R62" pin="2" pintype="passive"/>
     </net>
-    <net code="144" name="Net-(Q27-D_1)" class="Default">
+    <net code="152" name="Net-(Q27-D_1)" class="Default">
       <node ref="Q27" pin="2" pinfunction="D_1" pintype="passive"/>
       <node ref="T39" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="145" name="Net-(Q27-G)" class="Default">
+    <net code="153" name="Net-(Q27-G)" class="Default">
       <node ref="Q27" pin="1" pinfunction="G" pintype="passive"/>
       <node ref="Q28" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R109" pin="1" pintype="passive"/>
       <node ref="R110" pin="1" pintype="passive"/>
     </net>
-    <net code="146" name="Net-(Q29-D)" class="Default">
+    <net code="154" name="Net-(Q29-D)" class="Default">
       <node ref="Q29" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q30" pin="1" pinfunction="G" pintype="passive"/>
       <node ref="R113" pin="1" pintype="passive"/>
       <node ref="R114" pin="1" pintype="passive"/>
     </net>
-    <net code="147" name="Net-(Q30-D_1)" class="Default">
+    <net code="155" name="Net-(Q30-D_1)" class="Default">
       <node ref="Q30" pin="2" pinfunction="D_1" pintype="passive"/>
       <node ref="T40" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="148" name="Net-(Q31-D)" class="Default">
+    <net code="156" name="Net-(Q31-D)" class="Default">
       <node ref="Q31" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q32" pin="1" pinfunction="G" pintype="passive"/>
       <node ref="R116" pin="1" pintype="passive"/>
       <node ref="R117" pin="1" pintype="passive"/>
     </net>
-    <net code="149" name="Net-(Q32-D_1)" class="Default">
+    <net code="157" name="Net-(Q32-D_1)" class="Default">
       <node ref="Q32" pin="2" pinfunction="D_1" pintype="passive"/>
       <node ref="T41" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="150" name="Net-(Q33-D)" class="Default">
+    <net code="158" name="Net-(Q33-D)" class="Default">
       <node ref="Q33" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q34" pin="1" pinfunction="G" pintype="passive"/>
       <node ref="R119" pin="1" pintype="passive"/>
       <node ref="R120" pin="1" pintype="passive"/>
     </net>
-    <net code="151" name="Net-(Q34-D_1)" class="Default">
+    <net code="159" name="Net-(Q34-D_1)" class="Default">
       <node ref="Q34" pin="2" pinfunction="D_1" pintype="passive"/>
       <node ref="T42" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="152" name="RX" class="Default">
+    <net code="160" name="RX" class="Default">
       <node ref="IC1" pin="8" pinfunction="RIN2" pintype="input"/>
       <node ref="R39" pin="2" pintype="passive"/>
     </net>
-    <net code="153" name="Relay_VCC" class="Default">
+    <net code="161" name="Relay_VCC" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
@@ -6950,7 +7254,7 @@
       <node ref="K8" pin="1" pinfunction="COIL_1" pintype="passive"/>
       <node ref="K9" pin="1" pinfunction="COIL_1" pintype="passive"/>
     </net>
-    <net code="154" name="Selector Out" class="Default">
+    <net code="162" name="Selector Out" class="Default">
       <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="K11" pin="4" pinfunction="S1" pintype="passive"/>
       <node ref="K12" pin="4" pinfunction="S1" pintype="passive"/>
@@ -6968,40 +7272,40 @@
       <node ref="Q34" pin="4" pinfunction="D_2" pintype="passive"/>
       <node ref="SW1" pin="A1" pintype="passive"/>
     </net>
-    <net code="155" name="TTL1" class="Default">
+    <net code="163" name="TTL1" class="Default">
       <node ref="J4" pin="30" pinfunction="Pin_30" pintype="passive"/>
       <node ref="R33" pin="1" pintype="passive"/>
       <node ref="TTL1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="156" name="TTL2" class="Default">
+    <net code="164" name="TTL2" class="Default">
       <node ref="J4" pin="32" pinfunction="Pin_32" pintype="passive"/>
       <node ref="R34" pin="1" pintype="passive"/>
       <node ref="TTL2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="157" name="TTL3" class="Default">
+    <net code="165" name="TTL3" class="Default">
       <node ref="J4" pin="28" pinfunction="Pin_28" pintype="passive"/>
       <node ref="R36" pin="1" pintype="passive"/>
       <node ref="TTL3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="158" name="TTL4" class="Default">
+    <net code="166" name="TTL4" class="Default">
       <node ref="J4" pin="34" pinfunction="Pin_34" pintype="passive"/>
       <node ref="R38" pin="2" pintype="passive"/>
       <node ref="TTL4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="159" name="TTL5" class="Default">
+    <net code="167" name="TTL5" class="Default">
       <node ref="J4" pin="26" pinfunction="Pin_26" pintype="passive"/>
       <node ref="R40" pin="2" pintype="passive"/>
       <node ref="TTL5" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="160" name="TX" class="Default">
+    <net code="168" name="TX" class="Default">
       <node ref="IC1" pin="7" pinfunction="DOUT2" pintype="output"/>
       <node ref="R35" pin="1" pintype="passive"/>
     </net>
-    <net code="161" name="TX3/14" class="Default">
+    <net code="169" name="TX3/14" class="Default">
       <node ref="IC1" pin="9" pinfunction="ROUT2" pintype="output"/>
       <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="162" name="VCAM_1 +28V" class="Default">
+    <net code="170" name="VCAM_1 +28V" class="Default">
       <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="K13" pin="3" pinfunction="S2" pintype="passive"/>
       <node ref="K3" pin="3" pinfunction="COM" pintype="passive"/>
@@ -7009,7 +7313,7 @@
       <node ref="SW1" pin="3" pintype="passive"/>
       <node ref="VC1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="163" name="VCAM_2 +28V" class="Default">
+    <net code="171" name="VCAM_2 +28V" class="Default">
       <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="K14" pin="3" pinfunction="S2" pintype="passive"/>
       <node ref="K4" pin="3" pinfunction="COM" pintype="passive"/>
@@ -7017,7 +7321,7 @@
       <node ref="SW1" pin="4" pintype="passive"/>
       <node ref="VC2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="164" name="VCAM_3 +28V" class="Default">
+    <net code="172" name="VCAM_3 +28V" class="Default">
       <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="K15" pin="3" pinfunction="S2" pintype="passive"/>
       <node ref="K5" pin="3" pinfunction="COM" pintype="passive"/>
@@ -7025,7 +7329,7 @@
       <node ref="SW1" pin="5" pintype="passive"/>
       <node ref="VC3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="165" name="VCAM_4 +28V" class="Default">
+    <net code="173" name="VCAM_4 +28V" class="Default">
       <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="K16" pin="3" pinfunction="S2" pintype="passive"/>
       <node ref="K7" pin="3" pinfunction="COM" pintype="passive"/>
@@ -7033,7 +7337,7 @@
       <node ref="SW1" pin="6" pintype="passive"/>
       <node ref="VC4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="166" name="VCAM_5 +28V" class="Default">
+    <net code="174" name="VCAM_5 +28V" class="Default">
       <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="K17" pin="3" pinfunction="S2" pintype="passive"/>
       <node ref="K9" pin="3" pinfunction="COM" pintype="passive"/>
@@ -7041,7 +7345,7 @@
       <node ref="SW1" pin="7" pintype="passive"/>
       <node ref="VC5" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="167" name="VCAM_6 +28V" class="Default">
+    <net code="175" name="VCAM_6 +28V" class="Default">
       <node ref="J10" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="K10" pin="3" pinfunction="COM" pintype="passive"/>
       <node ref="K18" pin="3" pinfunction="S2" pintype="passive"/>
@@ -7049,10 +7353,10 @@
       <node ref="SW1" pin="8" pintype="passive"/>
       <node ref="VC6" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="168" name="VCC" class="Default">
+    <net code="176" name="VCC" class="Default">
       <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="169" name="VDCU_28V" class="Default">
+    <net code="177" name="VDCU_28V" class="Default">
       <node ref="J11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J11" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="K19" pin="3" pinfunction="S2" pintype="passive"/>
@@ -7064,7 +7368,7 @@
       <node ref="SW1" pin="9" pintype="passive"/>
       <node ref="T7" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="170" name="VTX_1_28V" class="Default">
+    <net code="178" name="VTX_1_28V" class="Default">
       <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="K1" pin="3" pinfunction="COM" pintype="passive"/>
       <node ref="K11" pin="3" pinfunction="S2" pintype="passive"/>
@@ -7075,7 +7379,7 @@
       <node ref="SW1" pin="1" pintype="passive"/>
       <node ref="VTX1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="171" name="VTX_2_28V" class="Default">
+    <net code="179" name="VTX_2_28V" class="Default">
       <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="K12" pin="3" pinfunction="S2" pintype="passive"/>
       <node ref="K2" pin="3" pinfunction="COM" pintype="passive"/>
@@ -7086,41 +7390,17 @@
       <node ref="SW1" pin="2" pintype="passive"/>
       <node ref="VTX2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="172" name="unconnected-(H1-PadMP)" class="Default">
+    <net code="180" name="unconnected-(H1-PadMP)" class="Default">
       <node ref="H1" pin="MP" pinfunction="MP" pintype="input+no_connect"/>
     </net>
-    <net code="173" name="unconnected-(H2-PadMP)" class="Default">
+    <net code="181" name="unconnected-(H2-PadMP)" class="Default">
       <node ref="H2" pin="MP" pinfunction="MP" pintype="input+no_connect"/>
     </net>
-    <net code="174" name="unconnected-(H3-PadMP)" class="Default">
+    <net code="182" name="unconnected-(H3-PadMP)" class="Default">
       <node ref="H3" pin="MP" pinfunction="MP" pintype="input+no_connect"/>
     </net>
-    <net code="175" name="unconnected-(H4-PadMP)" class="Default">
+    <net code="183" name="unconnected-(H4-PadMP)" class="Default">
       <node ref="H4" pin="MP" pinfunction="MP" pintype="input+no_connect"/>
-    </net>
-    <net code="176" name="unconnected-(J10-Pin_10-Pad10)" class="Default">
-      <node ref="J10" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
-    </net>
-    <net code="177" name="unconnected-(J10-Pin_20-Pad20)" class="Default">
-      <node ref="J10" pin="20" pinfunction="Pin_20" pintype="passive+no_connect"/>
-    </net>
-    <net code="178" name="unconnected-(J10-Pin_21-Pad21)" class="Default">
-      <node ref="J10" pin="21" pinfunction="Pin_21" pintype="passive+no_connect"/>
-    </net>
-    <net code="179" name="unconnected-(J10-Pin_22-Pad22)" class="Default">
-      <node ref="J10" pin="22" pinfunction="Pin_22" pintype="passive+no_connect"/>
-    </net>
-    <net code="180" name="unconnected-(J10-Pin_23-Pad23)" class="Default">
-      <node ref="J10" pin="23" pinfunction="Pin_23" pintype="passive+no_connect"/>
-    </net>
-    <net code="181" name="unconnected-(J10-Pin_24-Pad24)" class="Default">
-      <node ref="J10" pin="24" pinfunction="Pin_24" pintype="passive+no_connect"/>
-    </net>
-    <net code="182" name="unconnected-(J11-Pad13)" class="Default">
-      <node ref="J11" pin="13" pinfunction="13" pintype="passive+no_connect"/>
-    </net>
-    <net code="183" name="unconnected-(J11-Pad15)" class="Default">
-      <node ref="J11" pin="15" pinfunction="15" pintype="passive+no_connect"/>
     </net>
     <net code="184" name="unconnected-(J11-PadMH1)" class="Default">
       <node ref="J11" pin="MH1" pinfunction="MH1" pintype="passive+no_connect"/>
