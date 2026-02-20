@@ -5,7 +5,7 @@
 	(uuid "67ff174e-641e-469e-86d1-bd08bb13607f")
 	(paper "A3")
 	(title_block
-		(title "Sheet Title C")
+		(title "LCL Selector")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -1815,6 +1815,54 @@
 			(justify bottom)
 		)
 		(uuid "7f5dddc7-26d2-4fb2-95b1-056e16460362")
+	)
+	(text_box "LAYOUT NOTE:\nAdd more vias to the 28V, VTX1, and the other three high-current (up to 3A) nets, and increase the trace width accordingly."
+		(exclude_from_sim no)
+		(at 139.7 254 0)
+		(size 26.67 15.24)
+		(margins 1.4525 1.4525 1.4525 1.4525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "8b2047fc-8e03-4610-b2c8-d3262a2078dc")
+	)
+	(text_box "DESIGN NOTE:\nAdd test points on all unused pins."
+		(exclude_from_sim no)
+		(at 111.76 254 0)
+		(size 21.59 15.24)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8c5f8f7a-8899-467e-aa62-043000221227")
 	)
 	(text_box "Digital Control - Power Switching Interface"
 		(exclude_from_sim no)
@@ -8173,7 +8221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -8182,7 +8230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 185.42 88.9 0)
 			(effects
 				(font
@@ -8391,7 +8439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 143.18 0)
 			(effects
 				(font
@@ -8550,7 +8598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 278.13 196.85 0)
 			(effects
 				(font
@@ -8655,7 +8703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 254 209.55 0)
 			(effects
 				(font
@@ -8664,7 +8712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 254 209.55 0)
 			(effects
 				(font
@@ -8749,7 +8797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 163.5 0)
 			(effects
 				(font
@@ -8914,7 +8962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 342.9 196.85 0)
 			(effects
 				(font
@@ -9019,7 +9067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -9028,7 +9076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -9115,7 +9163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 184.15 185.42 0)
 			(effects
 				(font
@@ -9124,7 +9172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 184.15 185.42 0)
 			(effects
 				(font
@@ -9211,7 +9259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 355.6 196.85 0)
 			(effects
 				(font
@@ -9370,7 +9418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 193.98 0)
 			(effects
 				(font
@@ -9535,7 +9583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 369.57 209.55 0)
 			(effects
 				(font
@@ -9544,7 +9592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 369.57 209.55 0)
 			(effects
 				(font
@@ -9955,7 +10003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 68.58 185.42 0)
 			(effects
 				(font
@@ -9964,7 +10012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 68.58 185.42 0)
 			(effects
 				(font
@@ -10040,7 +10088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 143.18 0)
 			(effects
 				(font
@@ -10259,7 +10307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT230P700X180-4N"
+		(property "Footprint" "SamacSys_Parts:SOT230P700X180-4N"
 			(at 215.9 209.22 0)
 			(effects
 				(font
@@ -10413,7 +10461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT230P700X180-4N"
+		(property "Footprint" "SamacSys_Parts:SOT230P700X180-4N"
 			(at 215.9 235.89 0)
 			(effects
 				(font
@@ -10633,7 +10681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 234.62 0)
 			(effects
 				(font
@@ -10792,7 +10840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 163.83 49.53 0)
 			(effects
 				(font
@@ -10801,7 +10849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 163.83 49.53 0)
 			(effects
 				(font
@@ -10888,7 +10936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.69 116.84 0)
 			(effects
 				(font
@@ -10897,7 +10945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 186.69 116.84 0)
 			(effects
 				(font
@@ -11096,7 +11144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 146.05 185.42 0)
 			(effects
 				(font
@@ -11105,7 +11153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 146.05 185.42 0)
 			(effects
 				(font
@@ -11181,7 +11229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT230P700X180-4N"
+		(property "Footprint" "SamacSys_Parts:SOT230P700X180-4N"
 			(at 214.63 181.28 0)
 			(effects
 				(font
@@ -11338,7 +11386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 204.14 0)
 			(effects
 				(font
@@ -11775,7 +11823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 165.1 185.42 0)
 			(effects
 				(font
@@ -11784,7 +11832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 165.1 185.42 0)
 			(effects
 				(font
@@ -11936,7 +11984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 355.6 209.55 0)
 			(effects
 				(font
@@ -11945,7 +11993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 355.6 209.55 0)
 			(effects
 				(font
@@ -12106,7 +12154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 369.57 196.85 0)
 			(effects
 				(font
@@ -12202,7 +12250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at 89.23 210.82 0)
 			(effects
 				(font
@@ -12486,7 +12534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 185.42 60.96 0)
 			(effects
 				(font
@@ -12495,7 +12543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 185.42 60.96 0)
 			(effects
 				(font
@@ -12636,7 +12684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at -6.02 210.82 0)
 			(effects
 				(font
@@ -12773,7 +12821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 214.3 0)
 			(effects
 				(font
@@ -12932,7 +12980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 317.5 196.85 0)
 			(effects
 				(font
@@ -13203,7 +13251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 173.66 0)
 			(effects
 				(font
@@ -13433,7 +13481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 163.83 127 0)
 			(effects
 				(font
@@ -13442,7 +13490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 163.83 127 0)
 			(effects
 				(font
@@ -13529,7 +13577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -13538,7 +13586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -13625,7 +13673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 203.2 185.42 0)
 			(effects
 				(font
@@ -13634,7 +13682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 203.2 185.42 0)
 			(effects
 				(font
@@ -13981,7 +14029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -13990,7 +14038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -14178,7 +14226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 153.34 0)
 			(effects
 				(font
@@ -14444,7 +14492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 183.82 0)
 			(effects
 				(font
@@ -14600,7 +14648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at 51.13 210.82 0)
 			(effects
 				(font
@@ -14745,7 +14793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 317.5 209.55 0)
 			(effects
 				(font
@@ -14754,7 +14802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 317.5 209.55 0)
 			(effects
 				(font
@@ -14850,7 +14898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -14859,7 +14907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -15022,7 +15070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 88.9 185.42 0)
 			(effects
 				(font
@@ -15031,7 +15079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 88.9 185.42 0)
 			(effects
 				(font
@@ -15118,7 +15166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 278.13 209.55 0)
 			(effects
 				(font
@@ -15127,7 +15175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 278.13 209.55 0)
 			(effects
 				(font
@@ -15317,7 +15365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at 14.3 210.82 0)
 			(effects
 				(font
@@ -15462,7 +15510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 304.8 196.85 0)
 			(effects
 				(font
@@ -15623,7 +15671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at 129.87 210.82 0)
 			(effects
 				(font
@@ -15759,7 +15807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at -26.34 210.82 0)
 			(effects
 				(font
@@ -15967,7 +16015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 254 196.85 0)
 			(effects
 				(font
@@ -16185,7 +16233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 182.88 60.96 0)
 			(effects
 				(font
@@ -16194,7 +16242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 182.88 60.96 0)
 			(effects
 				(font
@@ -16281,7 +16329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 292.1 196.85 0)
 			(effects
 				(font
@@ -16694,7 +16742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 224.79 185.42 0)
 			(effects
 				(font
@@ -16703,7 +16751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 224.79 185.42 0)
 			(effects
 				(font
@@ -16781,7 +16829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at 108.28 210.82 0)
 			(effects
 				(font
@@ -17029,7 +17077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 163.83 105.41 0)
 			(effects
 				(font
@@ -17038,7 +17086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 163.83 105.41 0)
 			(effects
 				(font
@@ -17117,7 +17165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 163.5 0)
 			(effects
 				(font
@@ -17265,7 +17313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 224.46 0)
 			(effects
 				(font
@@ -17421,7 +17469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at 70.18 210.82 0)
 			(effects
 				(font
@@ -17558,7 +17606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 224.46 0)
 			(effects
 				(font
@@ -17975,7 +18023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 342.9 209.55 0)
 			(effects
 				(font
@@ -17984,7 +18032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 342.9 209.55 0)
 			(effects
 				(font
@@ -18080,7 +18128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 184.15 143.51 0)
 			(effects
 				(font
@@ -18089,7 +18137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 184.15 143.51 0)
 			(effects
 				(font
@@ -18176,7 +18224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 330.2 196.85 0)
 			(effects
 				(font
@@ -18346,7 +18394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 163.83 132.08 0)
 			(effects
 				(font
@@ -18355,7 +18403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 163.83 132.08 0)
 			(effects
 				(font
@@ -18442,7 +18490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 265.43 209.55 0)
 			(effects
 				(font
@@ -18451,7 +18499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 265.43 209.55 0)
 			(effects
 				(font
@@ -18659,7 +18707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf"
 			(at 265.43 196.85 0)
 			(effects
 				(font
@@ -18755,7 +18803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at 33.35 210.82 0)
 			(effects
 				(font
@@ -18900,7 +18948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 163.83 44.45 0)
 			(effects
 				(font
@@ -18909,7 +18957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
 			(at 163.83 44.45 0)
 			(effects
 				(font
@@ -18987,7 +19035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "VOR1003M4T"
+		(property "Footprint" "SamacSys_Parts:VOR1003M4T"
 			(at -44.12 210.82 0)
 			(effects
 				(font
@@ -19132,7 +19180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 128.27 185.42 0)
 			(effects
 				(font
@@ -19141,7 +19189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 128.27 185.42 0)
 			(effects
 				(font
@@ -19228,7 +19276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 304.8 209.55 0)
 			(effects
 				(font
@@ -19237,7 +19285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 304.8 209.55 0)
 			(effects
 				(font
@@ -19333,7 +19381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 292.1 209.55 0)
 			(effects
 				(font
@@ -19342,7 +19390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 292.1 209.55 0)
 			(effects
 				(font
@@ -19492,7 +19540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT230P700X180-4N"
+		(property "Footprint" "SamacSys_Parts:SOT230P700X180-4N"
 			(at 214.63 153.34 0)
 			(effects
 				(font
@@ -19733,7 +19781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -19742,7 +19790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -19829,7 +19877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.69 143.51 0)
 			(effects
 				(font
@@ -19838,7 +19886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 186.69 143.51 0)
 			(effects
 				(font
@@ -19980,7 +20028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 183.82 0)
 			(effects
 				(font
@@ -20204,7 +20252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 109.22 185.42 0)
 			(effects
 				(font
@@ -20213,7 +20261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 109.22 185.42 0)
 			(effects
 				(font
@@ -20365,7 +20413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 50.8 185.42 0)
 			(effects
 				(font
@@ -20374,7 +20422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"
 			(at 50.8 185.42 0)
 			(effects
 				(font
@@ -20450,7 +20498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 214.3 0)
 			(effects
 				(font
@@ -20607,7 +20655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 173.66 0)
 			(effects
 				(font
@@ -20821,7 +20869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 193.98 0)
 			(effects
 				(font
@@ -20969,7 +21017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 204.14 0)
 			(effects
 				(font
@@ -21199,7 +21247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 330.2 209.55 0)
 			(effects
 				(font
@@ -21208,7 +21256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 330.2 209.55 0)
 			(effects
 				(font
@@ -21296,7 +21344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDR2W100P0X508_1X2_1216X860X1230P"
+		(property "Footprint" "SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P"
 			(at 363.22 153.34 0)
 			(effects
 				(font
@@ -21660,7 +21708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OJESH105LMH000"
+		(property "Footprint" "SamacSys_Parts:OJESH105LMH000"
 			(at 303.53 234.62 0)
 			(effects
 				(font

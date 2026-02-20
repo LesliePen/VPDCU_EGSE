@@ -181,6 +181,19 @@
 		)
 		(uuid "b60ecde0-2a85-4071-a728-47148cd80779")
 	)
+	(text "Page 6"
+		(exclude_from_sim no)
+		(at 219.964 171.704 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(href "#6")
+		)
+		(uuid "e7c35746-ec86-4efd-94d1-21d3694bb143")
+	)
 	(text "Page 4"
 		(exclude_from_sim no)
 		(at 226.06 95.25 0)
