@@ -1,0 +1,377 @@
+** Drc report for VPDCU_EGSE.kicad_pcb **
+** Created on 2026-02-20T13:57:50+0000 **
+
+** Found 113 DRC violations **
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(297.75 mm, 203.0 mm): Footprint R83
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(382.5 mm, 234.0 mm): Footprint R13
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(294.905 mm, 242.0 mm): Footprint R43
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(212.1625 mm, 144.2 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(212.1625 mm, 141.95 mm): Footprint R67
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(249.5 mm, 235.0 mm): Footprint R40
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(393.0 mm, 234.0 mm): Footprint R17
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(281.155 mm, 242.0 mm): Footprint R44
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(247.275 mm, 217.75 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(414.25 mm, 234.0 mm): Footprint R28
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(378.25 mm, 234.0 mm): Footprint R11
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(312.0 mm, 138.7 mm): Footprint Q17
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(330.25 mm, 203.0 mm): Footprint R78
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(361.5875 mm, 138.7 mm): Footprint Q15
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(187.18 mm, 233.25 mm): Footprint R41
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(187.0 mm, 138.7 mm): Footprint Q12
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(212.1625 mm, 138.7 mm): Footprint Q11
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(387.25 mm, 141.8875 mm): Footprint R74
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(405.75 mm, 234.0 mm): Footprint R24
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(395.25 mm, 234.0 mm): Footprint R19
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(361.5875 mm, 141.95 mm): Footprint R73
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(237.0875 mm, 144.2 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(453.0 mm, 239.25 mm): Footprint JP2
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(286.95 mm, 142.0125 mm): Footprint R70
+[lib_footprint_mismatch]: Footprint 'PinHeader_2x18_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(367.645 mm, 216.855 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(410.0 mm, 234.0 mm): Footprint R25
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x10_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(442.829 mm, 173.675 mm): Footprint J6
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(397.25 mm, 234.0 mm): Footprint R20
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(262.0 mm, 141.8875 mm): Footprint R69
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(234.0 mm, 235.0 mm): Footprint R33
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(253.5 mm, 212.5 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x08_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(387.965 mm, 221.935 mm): Footprint J3
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(242.5 mm, 217.75 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(291.055 mm, 242.0 mm): Footprint Q13
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(286.95 mm, 138.7625 mm): Footprint Q16
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(387.25 mm, 138.6375 mm): Footprint Q24
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(312.0 mm, 144.2 mm): Footprint R9
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(288.055 mm, 242.0 mm): Footprint R42
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(239.4 mm, 235.0 mm): Footprint R35
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(262.0 mm, 144.1375 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(282.155 mm, 237.35 mm): Footprint R62
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(291.25 mm, 203.0 mm): Footprint R85
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(416.5 mm, 234.0 mm): Footprint R30
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(380.25 mm, 234.0 mm): Footprint R12
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x08_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(415.905 mm, 173.675 mm): Footprint J7
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(386.75 mm, 234.0 mm): Footprint R15
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(384.5 mm, 234.0 mm): Footprint R14
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(262.0 mm, 138.6375 mm): Footprint Q10
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(317.25 mm, 203.0 mm): Footprint R80
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x08_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(410.825 mm, 221.935 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(387.25 mm, 144.1375 mm): Footprint R6
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(361.5875 mm, 144.2 mm): Footprint R7
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x06_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(388.15 mm, 165.2 mm): Footprint J9
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(336.75 mm, 203.0 mm): Footprint R77
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(401.5 mm, 234.0 mm): Footprint R21
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(336.95 mm, 142.0125 mm): Footprint R72
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(187.0 mm, 144.2 mm): Footprint R4
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(336.95 mm, 138.7625 mm): Footprint Q14
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(412.2 mm, 138.7625 mm): Footprint Q23
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(187.0 mm, 141.95 mm): Footprint R66
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(312.0 mm, 141.95 mm): Footprint R71
+[lib_footprint_mismatch]: Footprint 'DSUB-26-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm' does not match copy in library 'Connector_Dsub'.
+    ; warning
+    @(349.375 mm, 246.46 mm): Footprint J10
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(412.2 mm, 142.0125 mm): Footprint R75
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(408.0 mm, 234.0 mm): Footprint R26
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(343.25 mm, 203.0 mm): Footprint R76
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(336.95 mm, 144.2625 mm): Footprint R8
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(284.155 mm, 242.0 mm): Footprint Q22
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(231.0 mm, 235.0 mm): Footprint R34
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(304.25 mm, 203.0 mm): Footprint R82
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x08_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(393.045 mm, 173.675 mm): Footprint J8
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(237.0 mm, 235.0 mm): Footprint R36
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(247.0 mm, 235.0 mm): Footprint R39
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(237.0875 mm, 141.95 mm): Footprint R68
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(228.0 mm, 234.9125 mm): Footprint R38
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(323.75 mm, 203.0 mm): Footprint R79
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(240.0 mm, 213.975 mm): Footprint C3
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(284.75 mm, 203.0 mm): Footprint R84
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(237.0875 mm, 138.7 mm): Footprint Q9
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(310.75 mm, 203.0 mm): Footprint R81
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(286.95 mm, 144.2625 mm): Footprint R10
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(295.905 mm, 237.35 mm): Footprint R56
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(391.0 mm, 234.0 mm): Footprint R18
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(418.5 mm, 234.0 mm): Footprint R29
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(187.18 mm, 229.3375 mm): Footprint R65
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(399.5 mm, 234.0 mm): Footprint R22
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(240.0 mm, 208.975 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(412.25 mm, 234.0 mm): Footprint R27
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(412.2 mm, 144.2625 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x08_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(433.685 mm, 221.935 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(403.75 mm, 234.0 mm): Footprint R23
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(289.155 mm, 237.35 mm): Footprint R57
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(388.75 mm, 234.0 mm): Footprint R16
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(297.905 mm, 242.0 mm): Footprint Q4
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(331.5 mm, 209.48 mm): Footprint R120
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(331.5 mm, 211.5 mm): Footprint R119
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(277.0 mm, 206.0 mm): Footprint C34
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(339.5 mm, 209.48 mm): Footprint R116
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(277.0 mm, 204.0 mm): Footprint R111
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(330.5 mm, 206.23 mm): Footprint Q33
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(285.5 mm, 206.0 mm): Footprint C35
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(278.0 mm, 212.25 mm): Footprint R109
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(338.5 mm, 203.23 mm): Footprint C36
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(285.5 mm, 204.0 mm): Footprint R112
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(286.25 mm, 214.25 mm): Footprint R113
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(330.5 mm, 203.23 mm): Footprint C37
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(338.5 mm, 201.23 mm): Footprint R115
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(330.5 mm, 201.23 mm): Footprint R118
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(277.0 mm, 209.0 mm): Footprint Q28
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(286.25 mm, 212.25 mm): Footprint R114
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(339.5 mm, 211.48 mm): Footprint R117
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(278.0 mm, 214.25 mm): Footprint R110
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(285.25 mm, 209.0 mm): Footprint Q29
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(338.5 mm, 206.23 mm): Footprint Q31
+
+** Found 0 unconnected pads **
+
+** Found 10 Footprint errors **
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(164.0 mm, 256.0 mm): Footprint H1
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(476.0 mm, 256.0 mm): Footprint H2
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(164.0 mm, 114.0 mm): Footprint H3
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(476.0 mm, 114.0 mm): Footprint H4
+[footprint_symbol_mismatch]: 10090926_P154XLF:AMPHENOL_10090926-P154XLF doesn't match footprint given by symbol (Library:AMPHENOL_10090926-P154XLF).
+    ; warning
+    @(468.5 mm, 147.5 mm): Footprint J12
+[net_conflict]: No pad found for pin 0 in schematic.
+    ; warning
+    @(468.5 mm, 147.5 mm): Footprint J12
+[missing_footprint]: Missing footprint T7 (TestPoint)
+    ; warning
+[missing_footprint]: Missing footprint T8 (TestPoint)
+    ; warning
+[extra_footprint]: Extra footprint
+    ; warning
+    @(244.0 mm, 241.0 mm): Footprint VDCU_28V
+[extra_footprint]: Extra footprint
+    ; warning
+    @(367.5 mm, 235.0 mm): Footprint LD9
+
+** End of Report **

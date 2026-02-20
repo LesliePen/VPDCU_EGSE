@@ -74,18 +74,18 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">285d75e</textvar>
+    <textvar name="GIT_HASH_PCB">a2a6e93</textvar>
     <textvar name="GIT_HASH_SCH">5476777</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">VIKI_PDCU_EGSE</textvar>
-    <textvar name="RELEASE_BODY_1.0.0"/>
+    <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">16-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-16</textvar>
-    <textvar name="RELEASE_TITLE_1.0.0"/>
+    <textvar name="RELEASE_DATE">20-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-20</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
@@ -131,7 +131,7 @@
     <textvar name="SHEET_NAME_7">Revision History</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -188,7 +188,7 @@
     </sheet>
     <sheet number="4" name="/Project Architecture/Section A - Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/">
       <title_block>
-        <title>Sheet Title A</title>
+        <title>Power Entry and Connectors</title>
         <company>REALTRA SPACE SYSTEMS LIMITED</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
@@ -206,7 +206,7 @@
     </sheet>
     <sheet number="5" name="/Project Architecture/Section B - Arduino Mega/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/">
       <title_block>
-        <title>Sheet Title B</title>
+        <title>Arduino Mega 2560</title>
         <company>REALTRA SPACE SYSTEMS LIMITED</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
@@ -224,7 +224,7 @@
     </sheet>
     <sheet number="6" name="/Project Architecture/Section C - LCL Selector/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/c3c356cb-e70b-4a34-b904-10be6d538714/">
       <title_block>
-        <title>Sheet Title C</title>
+        <title>LCL Selector</title>
         <company>REALTRA SPACE SYSTEMS LIMITED</company>
         <rev>+ (Unreleased)</rev>
         <date/>
@@ -409,20 +409,20 @@
     <comp ref="J10">
       <value>Conn_01x26</value>
       <footprint>Connector_Dsub:DSUB-26-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm</footprint>
-      <datasheet>~</datasheet>
-      <description>Generic connector, single row, 01x26, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_d_sub_hd_stamped_formed_right_angle.pdf</datasheet>
+      <description>26 Position D-Sub, High Density Receptacle, Female Sockets Connector</description>
       <fields>
         <field name="Realtra Part Number">R-CON-1263-26PO</field>
-        <field name="Manufacturer Part Number">DD26S3S00S/AA</field>
-        <field name="Manufacturer">Amphenol Positronic</field>
+        <field name="Manufacturer Part Number">L77HDA26SD1CH4F</field>
+        <field name="Manufacturer">Amphenol ICC (Commercial Products)</field>
         <field name="Footprint">Connector_Dsub:DSUB-26-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x26, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_d_sub_hd_stamped_formed_right_angle.pdf</field>
+        <field name="Description">26 Position D-Sub, High Density Receptacle, Female Sockets Connector</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x26" description="Generic connector, single row, 01x26, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Realtra Part Number" value="R-CON-1263-26PO"/>
-      <property name="Manufacturer Part Number" value="DD26S3S00S/AA"/>
-      <property name="Manufacturer" value="Amphenol Positronic"/>
+      <property name="Manufacturer Part Number" value="L77HDA26SD1CH4F"/>
+      <property name="Manufacturer" value="Amphenol ICC (Commercial Products)"/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -432,7 +432,7 @@
     </comp>
     <comp ref="J11">
       <value>L17HTHES4R1C</value>
-      <footprint>L17HTHES4R1C</footprint>
+      <footprint>SamacSys_Parts:L17HTHES4R1C</footprint>
       <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l17hthxs4rxc.p</datasheet>
       <description>Dsub, Stamped Signal 3A, Right Angle PCB Thru Hole, Hight Temp High Density, FP=8.89mm (0.350in), 15 Socket, Bright Tin Shell, Flash Gold, 4-40 Rear Insert, Ground Tab&amp;Boardlock, Plastic Tray, Close Back</description>
       <fields>
@@ -444,7 +444,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-CON-1264-15PO</field>
-        <field name="Footprint">L17HTHES4R1C</field>
+        <field name="Footprint">SamacSys_Parts:L17HTHES4R1C</field>
         <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l17hthxs4rxc.p</field>
         <field name="Description">Dsub, Stamped Signal 3A, Right Angle PCB Thru Hole, Hight Temp High Density, FP=8.89mm (0.350in), 15 Socket, Bright Tin Shell, Flash Gold, 4-40 Rear Insert, Ground Tab&amp;Boardlock, Plastic Tray, Close Back</field>
       </fields>
@@ -464,19 +464,23 @@
     </comp>
     <comp ref="J12">
       <value>DA15_Socket_MountingHoles</value>
-      <footprint>Connector_Dsub:DSUB-15-HD_Pins_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm</footprint>
-      <datasheet>~</datasheet>
-      <description>15-pin D-SUB connector, socket (female) (low-density/2 columns), Mounting Hole</description>
+      <footprint>Library:AMPHENOL_10090926-P154XLF</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_dsub_brochure.pdf</datasheet>
+      <description>15 Position D-Sub, High Density Plug, Male Pins Connector</description>
       <fields>
-        <field name="Realtra Part Number"/>
+        <field name="Realtra Part Number">R-CON-1271-15PI</field>
         <field name="Config"/>
-        <field name="Footprint">Connector_Dsub:DSUB-15-HD_Pins_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">15-pin D-SUB connector, socket (female) (low-density/2 columns), Mounting Hole</field>
+        <field name="Manufacturer">Amphenol ICC (FCI)</field>
+        <field name="Manufacturer Part Number">10090926-P154XLF</field>
+        <field name="Footprint">Library:AMPHENOL_10090926-P154XLF</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_dsub_brochure.pdf</field>
+        <field name="Description">15 Position D-Sub, High Density Plug, Male Pins Connector</field>
       </fields>
       <libsource lib="Connector" part="DA15_Socket_MountingHoles" description="15-pin D-SUB connector, socket (female) (low-density/2 columns), Mounting Hole"/>
-      <property name="Realtra Part Number" value=""/>
+      <property name="Realtra Part Number" value="R-CON-1271-15PI"/>
       <property name="Config" value=""/>
+      <property name="Manufacturer" value="Amphenol ICC (FCI)"/>
+      <property name="Manufacturer Part Number" value="10090926-P154XLF"/>
       <property name="Sheetname" value="Section A - Connectors"/>
       <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
       <property name="ki_keywords" value="DSUB"/>
@@ -486,27 +490,27 @@
     </comp>
     <comp ref="J13">
       <value>FCR7350R</value>
-      <footprint>FCR7350R</footprint>
+      <footprint>SamacSys_Parts:FCR7350R</footprint>
       <datasheet>http://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf</datasheet>
       <description>CLIFF ELECTRONIC COMPONENTS - FCR7350R - SOCKET, PCB, 4MM, R/A, S16N-PC, RED</description>
       <fields>
         <field name="Height">11.5</field>
-        <field name="Manufacturer_Name">CLIFF ELECTRONIC COMPONENTS</field>
-        <field name="Manufacturer_Part_Number">FCR7350R</field>
+        <field name="Manufacturer">CLIFF ELECTRONIC COMPONENTS</field>
+        <field name="Manufacturer Part Number">FCR7350R</field>
         <field name="Mouser Part Number"/>
         <field name="Mouser Price/Stock"/>
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-CON-1266-BRED</field>
         <field name="Config"/>
-        <field name="Footprint">FCR7350R</field>
+        <field name="Footprint">SamacSys_Parts:FCR7350R</field>
         <field name="Datasheet">http://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf</field>
         <field name="Description">CLIFF ELECTRONIC COMPONENTS - FCR7350R - SOCKET, PCB, 4MM, R/A, S16N-PC, RED</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="FCR7350R" description="CLIFF ELECTRONIC COMPONENTS - FCR7350R - SOCKET, PCB, 4MM, R/A, S16N-PC, RED"/>
       <property name="Height" value="11.5"/>
-      <property name="Manufacturer_Name" value="CLIFF ELECTRONIC COMPONENTS"/>
-      <property name="Manufacturer_Part_Number" value="FCR7350R"/>
+      <property name="Manufacturer" value="CLIFF ELECTRONIC COMPONENTS"/>
+      <property name="Manufacturer Part Number" value="FCR7350R"/>
       <property name="Mouser Part Number" value=""/>
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
@@ -520,27 +524,27 @@
     </comp>
     <comp ref="J14">
       <value>FCR7350B</value>
-      <footprint>FCR7350B</footprint>
+      <footprint>SamacSys_Parts:FCR7350B</footprint>
       <datasheet>https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf</datasheet>
       <description>Banana Jack Connector Standard Banana Solder Black Female  Through Hole, Right Angle</description>
       <fields>
         <field name="Height">12.3</field>
-        <field name="Manufacturer_Name">CLIFF ELECTRONIC COMPONENTS</field>
-        <field name="Manufacturer_Part_Number">FCR7350B</field>
+        <field name="Manufacturer">CLIFF ELECTRONIC COMPONENTS</field>
+        <field name="Manufacturer Part Number">FCR7350B</field>
         <field name="Mouser Part Number"/>
         <field name="Mouser Price/Stock"/>
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-CON-1267-BBLK</field>
         <field name="Config"/>
-        <field name="Footprint">FCR7350B</field>
+        <field name="Footprint">SamacSys_Parts:FCR7350B</field>
         <field name="Datasheet">https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf</field>
         <field name="Description">Banana Jack Connector Standard Banana Solder Black Female  Through Hole, Right Angle</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="FCR7350B" description="Banana Jack Connector Standard Banana Solder Black Female  Through Hole, Right Angle"/>
       <property name="Height" value="12.3"/>
-      <property name="Manufacturer_Name" value="CLIFF ELECTRONIC COMPONENTS"/>
-      <property name="Manufacturer_Part_Number" value="FCR7350B"/>
+      <property name="Manufacturer" value="CLIFF ELECTRONIC COMPONENTS"/>
+      <property name="Manufacturer Part Number" value="FCR7350B"/>
       <property name="Mouser Part Number" value=""/>
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
@@ -554,27 +558,27 @@
     </comp>
     <comp ref="J15">
       <value>DE09-SL-24</value>
-      <footprint>DE09SL24</footprint>
+      <footprint>SamacSys_Parts:DE09SL24</footprint>
       <datasheet>https://app.adam-tech.com/products/download/data_sheet/198472/dxxx-sl-24-data-sheet.pdf</datasheet>
       <description>9 Position D-Sub Receptacle, Female Sockets Connector 250VAC ,3A,-20C ~ 85C</description>
       <fields>
         <field name="Height">12.9286</field>
-        <field name="Manufacturer_Name">Adam Tech</field>
-        <field name="Manufacturer_Part_Number">DE09-SL-24</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="Manufacturer Part Number">DE09-SL-24</field>
         <field name="Mouser Part Number"/>
         <field name="Mouser Price/Stock"/>
         <field name="Arrow Part Number">DE09-SL-24</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/de09-sl-24/adam-tech?region=nac</field>
         <field name="Realtra Part Number">R-CON-1265-9POS</field>
         <field name="Config"/>
-        <field name="Footprint">DE09SL24</field>
+        <field name="Footprint">SamacSys_Parts:DE09SL24</field>
         <field name="Datasheet">https://app.adam-tech.com/products/download/data_sheet/198472/dxxx-sl-24-data-sheet.pdf</field>
         <field name="Description">9 Position D-Sub Receptacle, Female Sockets Connector 250VAC ,3A,-20C ~ 85C</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="DE09-SL-24" description="9 Position D-Sub Receptacle, Female Sockets Connector 250VAC ,3A,-20C ~ 85C"/>
       <property name="Height" value="12.9286"/>
-      <property name="Manufacturer_Name" value="Adam Tech"/>
-      <property name="Manufacturer_Part_Number" value="DE09-SL-24"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="Manufacturer Part Number" value="DE09-SL-24"/>
       <property name="Mouser Part Number" value=""/>
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value="DE09-SL-24"/>
@@ -588,28 +592,28 @@
     </comp>
     <comp ref="J25">
       <value>KLDX-0202-A-LT</value>
-      <footprint>KLDX0202ALT</footprint>
+      <footprint>SamacSys_Parts:KLDX0202ALT</footprint>
       <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/771821c415f39d72624e307b8d446931.pdf</datasheet>
       <description>DC Power Connectors 2.0mm PCB JACK LOCKING TYPE</description>
       <fields>
         <field name="Realtra Part Number">R-CON-1261-KLDX</field>
         <field name="Height">11</field>
-        <field name="Manufacturer_Name">Kycon</field>
-        <field name="Manufacturer_Part_Number">KLDX-0202-A-LT</field>
+        <field name="Manufacturer Name">Kycon</field>
+        <field name="Manufacturer Part Number">KLDX-0202-A-LT</field>
         <field name="Mouser Part Number">806-KLDX-0202-A-LT</field>
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kycon/KLDX-0202-A-LT?qs=epXiFF%2FxuAFzEbYcT5hH6A%3D%3D</field>
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Config"/>
-        <field name="Footprint">KLDX0202ALT</field>
+        <field name="Footprint">SamacSys_Parts:KLDX0202ALT</field>
         <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/771821c415f39d72624e307b8d446931.pdf</field>
         <field name="Description">DC Power Connectors 2.0mm PCB JACK LOCKING TYPE</field>
       </fields>
       <libsource lib="SamacSys_Parts" part="KLDX-0202-A-LT" description="DC Power Connectors 2.0mm PCB JACK LOCKING TYPE"/>
       <property name="Realtra Part Number" value="R-CON-1261-KLDX"/>
       <property name="Height" value="11"/>
-      <property name="Manufacturer_Name" value="Kycon"/>
-      <property name="Manufacturer_Part_Number" value="KLDX-0202-A-LT"/>
+      <property name="Manufacturer Name" value="Kycon"/>
+      <property name="Manufacturer Part Number" value="KLDX-0202-A-LT"/>
       <property name="Mouser Part Number" value="806-KLDX-0202-A-LT"/>
       <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Kycon/KLDX-0202-A-LT?qs=epXiFF%2FxuAFzEbYcT5hH6A%3D%3D"/>
       <property name="Arrow Part Number" value=""/>
@@ -673,15 +677,15 @@
     <comp ref="R33">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -697,15 +701,15 @@
     <comp ref="R34">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -721,15 +725,15 @@
     <comp ref="R35">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -745,15 +749,15 @@
     <comp ref="R36">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -769,15 +773,15 @@
     <comp ref="R38">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -793,15 +797,15 @@
     <comp ref="R39">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -817,15 +821,15 @@
     <comp ref="R40">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -841,16 +845,16 @@
     <comp ref="R41">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -867,16 +871,16 @@
     <comp ref="R65">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -1555,7 +1559,7 @@
     </comp>
     <comp ref="IC1">
       <value>MAX232EIDR</value>
-      <footprint>SOIC127P600X175-16N</footprint>
+      <footprint>SamacSys_Parts:SOIC127P600X175-16N</footprint>
       <datasheet>http://www.ti.com/lit/gpn/max232e</datasheet>
       <description>Dual RS-232 Driver/Receiver with IEC61000-4-2  Protection</description>
       <fields>
@@ -1567,7 +1571,7 @@
         <field name="Arrow Part Number">MAX232EIDR</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/max232eidr/texas-instruments?utm_currency=USD&amp;region=nac</field>
         <field name="Realtra Part Number">R-ICX-0109-XCVR</field>
-        <field name="Footprint">SOIC127P600X175-16N</field>
+        <field name="Footprint">SamacSys_Parts:SOIC127P600X175-16N</field>
         <field name="Datasheet">http://www.ti.com/lit/gpn/max232e</field>
         <field name="Description">Dual RS-232 Driver/Receiver with IEC61000-4-2  Protection</field>
       </fields>
@@ -1591,7 +1595,7 @@
       <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
       <fields>
-        <field name="Realtra Part Number"/>
+        <field name="Realtra Part Number">R-CON-1268-SHV8</field>
         <field name="Manufacturer">WURTH ELEKTRONIK</field>
         <field name="Manufacturer Part Number">61300811121</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
@@ -1599,7 +1603,7 @@
         <field name="Description">Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Realtra Part Number" value=""/>
+      <property name="Realtra Part Number" value="R-CON-1268-SHV8"/>
       <property name="Manufacturer" value="WURTH ELEKTRONIK"/>
       <property name="Manufacturer Part Number" value="61300811121"/>
       <property name="Sheetname" value="Section B - Arduino Mega"/>
@@ -1612,18 +1616,18 @@
     <comp ref="J2">
       <value>Analog</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
       <fields>
-        <field name="Realtra Part Number"/>
+        <field name="Realtra Part Number">R-CON-1268-SHV8</field>
         <field name="Manufacturer">WURTH ELEKTRONIK</field>
         <field name="Manufacturer Part Number">61300811121</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/61300811121.pdf</field>
         <field name="Description">Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Realtra Part Number" value=""/>
+      <property name="Realtra Part Number" value="R-CON-1268-SHV8"/>
       <property name="Manufacturer" value="WURTH ELEKTRONIK"/>
       <property name="Manufacturer Part Number" value="61300811121"/>
       <property name="Sheetname" value="Section B - Arduino Mega"/>
@@ -1636,18 +1640,18 @@
     <comp ref="J3">
       <value>Analog</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
       <fields>
-        <field name="Realtra Part Number"/>
+        <field name="Realtra Part Number">R-CON-1268-SHV8</field>
         <field name="Manufacturer">WURTH ELEKTRONIK</field>
         <field name="Manufacturer Part Number">61300811121</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/61300811121.pdf</field>
         <field name="Description">Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Realtra Part Number" value=""/>
+      <property name="Realtra Part Number" value="R-CON-1268-SHV8"/>
       <property name="Manufacturer" value="WURTH ELEKTRONIK"/>
       <property name="Manufacturer Part Number" value="61300811121"/>
       <property name="Sheetname" value="Section B - Arduino Mega"/>
@@ -1660,18 +1664,18 @@
     <comp ref="J4">
       <value>Digital</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/61304021121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 2 Rows, 40 Contacts, Through Hole Straight, WR-PHD</description>
       <fields>
-        <field name="Realtra Part Number"/>
+        <field name="Realtra Part Number">R-CON-1270-2RVH</field>
         <field name="Manufacturer">WURTH ELEKTRONIK</field>
         <field name="Manufacturer Part Number">61304021121</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/61304021121.pdf</field>
         <field name="Description">Pin Header, Vertical, Board-to-Board, 2.54 mm, 2 Rows, 40 Contacts, Through Hole Straight, WR-PHD</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x18_Odd_Even" description="Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Realtra Part Number" value=""/>
+      <property name="Realtra Part Number" value="R-CON-1270-2RVH"/>
       <property name="Manufacturer" value="WURTH ELEKTRONIK"/>
       <property name="Manufacturer Part Number" value="61304021121"/>
       <property name="Sheetname" value="Section B - Arduino Mega"/>
@@ -1684,18 +1688,18 @@
     <comp ref="J6">
       <value>PWM</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/61301211121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 12 Contacts, Through Hole Straight, WR-PHD</description>
       <fields>
-        <field name="Realtra Part Number"/>
+        <field name="Realtra Part Number">R-CON-1269-SH12</field>
         <field name="Manufacturer">WURTH ELEKTRONIK</field>
         <field name="Manufacturer Part Number">61301211121</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/61301211121.pdf</field>
         <field name="Description">Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 12 Contacts, Through Hole Straight, WR-PHD</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Realtra Part Number" value=""/>
+      <property name="Realtra Part Number" value="R-CON-1269-SH12"/>
       <property name="Manufacturer" value="WURTH ELEKTRONIK"/>
       <property name="Manufacturer Part Number" value="61301211121"/>
       <property name="Sheetname" value="Section B - Arduino Mega"/>
@@ -1708,18 +1712,18 @@
     <comp ref="J7">
       <value>PWM</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
       <fields>
-        <field name="Realtra Part Number"/>
+        <field name="Realtra Part Number">R-CON-1268-SHV8</field>
         <field name="Manufacturer">WURTH ELEKTRONIK</field>
         <field name="Manufacturer Part Number">61300811121</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/61300811121.pdf</field>
         <field name="Description">Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Realtra Part Number" value=""/>
+      <property name="Realtra Part Number" value="R-CON-1268-SHV8"/>
       <property name="Manufacturer" value="WURTH ELEKTRONIK"/>
       <property name="Manufacturer Part Number" value="61300811121"/>
       <property name="Sheetname" value="Section B - Arduino Mega"/>
@@ -1732,18 +1736,18 @@
     <comp ref="J8">
       <value>Communication</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
       <fields>
-        <field name="Realtra Part Number"/>
+        <field name="Realtra Part Number">R-CON-1268-SHV8</field>
         <field name="Manufacturer">WURTH ELEKTRONIK</field>
         <field name="Manufacturer Part Number">61300811121</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/61300811121.pdf</field>
         <field name="Description">Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Realtra Part Number" value=""/>
+      <property name="Realtra Part Number" value="R-CON-1268-SHV8"/>
       <property name="Manufacturer" value="WURTH ELEKTRONIK"/>
       <property name="Manufacturer Part Number" value="61300811121"/>
       <property name="Sheetname" value="Section B - Arduino Mega"/>
@@ -1756,16 +1760,20 @@
     <comp ref="J9">
       <value>Conn_01x06</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
-        <field name="Realtra Part Number"/>
+        <field name="Realtra Part Number">R-CON-1268-SHV8</field>
+        <field name="Manufacturer">WURTH ELEKTRONIK</field>
+        <field name="Manufacturer Part Number">61300811121</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/61300811121.pdf</field>
         <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Realtra Part Number" value=""/>
+      <property name="Realtra Part Number" value="R-CON-1268-SHV8"/>
+      <property name="Manufacturer" value="WURTH ELEKTRONIK"/>
+      <property name="Manufacturer Part Number" value="61300811121"/>
       <property name="Sheetname" value="Section B - Arduino Mega"/>
       <property name="Sheetfile" value="Section B - TItle B.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -1855,14 +1863,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -1879,14 +1887,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -1903,14 +1911,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -1927,14 +1935,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -1951,14 +1959,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -1975,14 +1983,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -1999,14 +2007,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -2023,14 +2031,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -2047,14 +2055,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -2071,14 +2079,14 @@
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -2094,7 +2102,7 @@
     <comp ref="R42">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -2102,7 +2110,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2120,7 +2128,7 @@
     <comp ref="R43">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -2128,7 +2136,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2146,7 +2154,7 @@
     <comp ref="R44">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -2154,7 +2162,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2172,16 +2180,16 @@
     <comp ref="R56">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -2198,16 +2206,16 @@
     <comp ref="R57">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -2224,16 +2232,16 @@
     <comp ref="R62">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
+      <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
+        <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0388-100R"/>
@@ -2250,16 +2258,16 @@
     <comp ref="R66">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -2276,16 +2284,16 @@
     <comp ref="R67">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -2302,16 +2310,16 @@
     <comp ref="R68">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -2328,16 +2336,16 @@
     <comp ref="R69">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -2354,16 +2362,16 @@
     <comp ref="R70">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -2380,16 +2388,16 @@
     <comp ref="R71">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -2406,16 +2414,16 @@
     <comp ref="R72">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -2432,16 +2440,16 @@
     <comp ref="R73">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -2458,16 +2466,16 @@
     <comp ref="R74">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -2484,16 +2492,16 @@
     <comp ref="R75">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -3150,15 +3158,15 @@
     <comp ref="C34">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
+      <datasheet>https://datasheets.kyocera-avx.com/KGM_X7R.pdf</datasheet>
+      <description>Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
       <fields>
         <field name="Realtra Part Number">R-CAP-0051-100N</field>
         <field name="Manufacturer Part Number">KGM15BR71H104JT</field>
         <field name="Manufacturer">KYOCERA AVX</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/KGM_X7R.pdf</field>
+        <field name="Description">Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Realtra Part Number" value="R-CAP-0051-100N"/>
@@ -3174,15 +3182,15 @@
     <comp ref="C35">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
+      <datasheet>https://datasheets.kyocera-avx.com/KGM_X7R.pdf</datasheet>
+      <description>Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
       <fields>
         <field name="Realtra Part Number">R-CAP-0051-100N</field>
         <field name="Manufacturer Part Number">KGM15BR71H104JT</field>
         <field name="Manufacturer">KYOCERA AVX</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/KGM_X7R.pdf</field>
+        <field name="Description">Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Realtra Part Number" value="R-CAP-0051-100N"/>
@@ -3198,15 +3206,15 @@
     <comp ref="C36">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
+      <datasheet>https://datasheets.kyocera-avx.com/KGM_X7R.pdf</datasheet>
+      <description>Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
       <fields>
         <field name="Realtra Part Number">R-CAP-0051-100N</field>
         <field name="Manufacturer Part Number">KGM15BR71H104JT</field>
         <field name="Manufacturer">KYOCERA AVX</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/KGM_X7R.pdf</field>
+        <field name="Description">Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Realtra Part Number" value="R-CAP-0051-100N"/>
@@ -3222,15 +3230,15 @@
     <comp ref="C37">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
+      <datasheet>https://datasheets.kyocera-avx.com/KGM_X7R.pdf</datasheet>
+      <description>Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</description>
       <fields>
         <field name="Realtra Part Number">R-CAP-0051-100N</field>
         <field name="Manufacturer Part Number">KGM15BR71H104JT</field>
         <field name="Manufacturer">KYOCERA AVX</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/KGM_X7R.pdf</field>
+        <field name="Description">Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Realtra Part Number" value="R-CAP-0051-100N"/>
@@ -3245,7 +3253,7 @@
     </comp>
     <comp ref="J5">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3257,7 +3265,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3277,7 +3285,7 @@
     </comp>
     <comp ref="J16">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3289,7 +3297,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3309,7 +3317,7 @@
     </comp>
     <comp ref="J17">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3321,7 +3329,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3341,7 +3349,7 @@
     </comp>
     <comp ref="J18">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3353,7 +3361,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3373,7 +3381,7 @@
     </comp>
     <comp ref="J19">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3385,7 +3393,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3405,7 +3413,7 @@
     </comp>
     <comp ref="J20">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3417,7 +3425,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3437,7 +3445,7 @@
     </comp>
     <comp ref="J21">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3449,7 +3457,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3469,7 +3477,7 @@
     </comp>
     <comp ref="J22">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3481,7 +3489,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3501,7 +3509,7 @@
     </comp>
     <comp ref="J23">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3513,7 +3521,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3533,7 +3541,7 @@
     </comp>
     <comp ref="J24">
       <value>OSTOQ025450</value>
-      <footprint>SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
+      <footprint>SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</footprint>
       <datasheet>https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</datasheet>
       <description>TERM BLOCK HDR 2POS VERT 5.08MM</description>
       <fields>
@@ -3545,7 +3553,7 @@
         <field name="Arrow Part Number">OSTOQ025450</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostoq025450/on-shore-technology?region=nac</field>
         <field name="Realtra Part Number">R-CON-1262-VTBH</field>
-        <field name="Footprint">SHDR2W100P0X508_1X2_1216X860X1230P</field>
+        <field name="Footprint">SamacSys_Parts:SHDR2W100P0X508_1X2_1216X860X1230P</field>
         <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</field>
         <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
       </fields>
@@ -3565,7 +3573,7 @@
     </comp>
     <comp ref="K1">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3577,7 +3585,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3597,7 +3605,7 @@
     </comp>
     <comp ref="K2">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3609,7 +3617,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3629,7 +3637,7 @@
     </comp>
     <comp ref="K3">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3641,7 +3649,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3661,7 +3669,7 @@
     </comp>
     <comp ref="K4">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3673,7 +3681,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3693,7 +3701,7 @@
     </comp>
     <comp ref="K5">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3705,7 +3713,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3725,7 +3733,7 @@
     </comp>
     <comp ref="K6">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3737,7 +3745,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3757,7 +3765,7 @@
     </comp>
     <comp ref="K7">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3769,7 +3777,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3789,7 +3797,7 @@
     </comp>
     <comp ref="K8">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3801,7 +3809,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3821,7 +3829,7 @@
     </comp>
     <comp ref="K9">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3833,7 +3841,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3853,7 +3861,7 @@
     </comp>
     <comp ref="K10">
       <value>OJE-SH-105LMH,000</value>
-      <footprint>OJESH105LMH000</footprint>
+      <footprint>SamacSys_Parts:OJESH105LMH000</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</datasheet>
       <description>Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</description>
       <fields>
@@ -3865,7 +3873,7 @@
         <field name="Arrow Part Number"/>
         <field name="Arrow Price/Stock"/>
         <field name="Realtra Part Number">R-SWI-0002-RESW</field>
-        <field name="Footprint">OJESH105LMH000</field>
+        <field name="Footprint">SamacSys_Parts:OJESH105LMH000</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=OJ_OJE_series_relay_data_sheet_E&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=1461403-3&amp;DocFormat=pdf</field>
         <field name="Description">Body Features: Product Weight .318 OZ | Product Weight 9 G | Insulation Special Features Tracking Index of Relay Base PTI250 | Contact Features: Contact Material AgCdO | Contact Current Class 16 AMP | Contact Arrangement 1 Form A (NO) | Contact Number of Poles 1 | Contact Current Rating (Max) 8 AMP | Dimensions: Insulation Clearance Between Contact &amp; Coil .129 INCH | Length Class (Mechanical) 16  20 MM | Height Class (Mechanical) 14  15 MM | Product Height 14.7 MM | Product Length .716 INCH | Product</field>
       </fields>
@@ -3885,7 +3893,7 @@
     </comp>
     <comp ref="K11">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -3895,7 +3903,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -3913,7 +3921,7 @@
     </comp>
     <comp ref="K12">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -3923,7 +3931,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -3941,7 +3949,7 @@
     </comp>
     <comp ref="K13">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -3951,7 +3959,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -3969,7 +3977,7 @@
     </comp>
     <comp ref="K14">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -3979,7 +3987,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -3997,7 +4005,7 @@
     </comp>
     <comp ref="K15">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -4007,7 +4015,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -4025,7 +4033,7 @@
     </comp>
     <comp ref="K16">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -4035,7 +4043,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -4053,7 +4061,7 @@
     </comp>
     <comp ref="K17">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -4063,7 +4071,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -4081,7 +4089,7 @@
     </comp>
     <comp ref="K18">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -4091,7 +4099,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -4109,7 +4117,7 @@
     </comp>
     <comp ref="K19">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -4119,7 +4127,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -4137,7 +4145,7 @@
     </comp>
     <comp ref="K20">
       <value>VOR1003M4T</value>
-      <footprint>VOR1003M4T</footprint>
+      <footprint>SamacSys_Parts:VOR1003M4T</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</datasheet>
       <description>Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</description>
       <fields>
@@ -4147,7 +4155,7 @@
         <field name="Manufacturer">Vishay</field>
         <field name="Manufacturer Part Number">VOR1003M4T</field>
         <field name="Realtra Part Number">R-SWI-0003-PRSW</field>
-        <field name="Footprint">VOR1003M4T</field>
+        <field name="Footprint">SamacSys_Parts:VOR1003M4T</field>
         <field name="Datasheet">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</field>
         <field name="Description">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</field>
       </fields>
@@ -4425,7 +4433,7 @@
     </comp>
     <comp ref="Q27">
       <value>DMP6185SEQ-13</value>
-      <footprint>SOT230P700X180-4N</footprint>
+      <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
       <datasheet>https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf</datasheet>
       <description>MOSFET MOSFET BVDSS: 41V-60V</description>
       <fields>
@@ -4437,7 +4445,7 @@
         <field name="Arrow Part Number">DMP6185SEQ-13</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/dmp6185seq-13/diodes-incorporated?utm_currency=USD&amp;region=nac</field>
         <field name="Realtra Part Number">R-FET-0023-PCMF</field>
-        <field name="Footprint">SOT230P700X180-4N</field>
+        <field name="Footprint">SamacSys_Parts:SOT230P700X180-4N</field>
         <field name="Datasheet">https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf</field>
         <field name="Description">MOSFET MOSFET BVDSS: 41V-60V</field>
       </fields>
@@ -4505,7 +4513,7 @@
     </comp>
     <comp ref="Q30">
       <value>DMP6185SEQ-13</value>
-      <footprint>SOT230P700X180-4N</footprint>
+      <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
       <datasheet>https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf</datasheet>
       <description>MOSFET MOSFET BVDSS: 41V-60V</description>
       <fields>
@@ -4517,7 +4525,7 @@
         <field name="Arrow Part Number">DMP6185SEQ-13</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/dmp6185seq-13/diodes-incorporated?utm_currency=USD&amp;region=nac</field>
         <field name="Realtra Part Number">R-FET-0023-PCMF</field>
-        <field name="Footprint">SOT230P700X180-4N</field>
+        <field name="Footprint">SamacSys_Parts:SOT230P700X180-4N</field>
         <field name="Datasheet">https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf</field>
         <field name="Description">MOSFET MOSFET BVDSS: 41V-60V</field>
       </fields>
@@ -4561,7 +4569,7 @@
     </comp>
     <comp ref="Q32">
       <value>DMP6185SEQ-13</value>
-      <footprint>SOT230P700X180-4N</footprint>
+      <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
       <datasheet>https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf</datasheet>
       <description>MOSFET MOSFET BVDSS: 41V-60V</description>
       <fields>
@@ -4573,7 +4581,7 @@
         <field name="Arrow Part Number">DMP6185SEQ-13</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/dmp6185seq-13/diodes-incorporated?utm_currency=USD&amp;region=nac</field>
         <field name="Realtra Part Number">R-FET-0023-PCMF</field>
-        <field name="Footprint">SOT230P700X180-4N</field>
+        <field name="Footprint">SamacSys_Parts:SOT230P700X180-4N</field>
         <field name="Datasheet">https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf</field>
         <field name="Description">MOSFET MOSFET BVDSS: 41V-60V</field>
       </fields>
@@ -4617,7 +4625,7 @@
     </comp>
     <comp ref="Q34">
       <value>DMP6185SEQ-13</value>
-      <footprint>SOT230P700X180-4N</footprint>
+      <footprint>SamacSys_Parts:SOT230P700X180-4N</footprint>
       <datasheet>https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf</datasheet>
       <description>MOSFET MOSFET BVDSS: 41V-60V</description>
       <fields>
@@ -4629,7 +4637,7 @@
         <field name="Arrow Part Number">DMP6185SEQ-13</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/dmp6185seq-13/diodes-incorporated?utm_currency=USD&amp;region=nac</field>
         <field name="Realtra Part Number">R-FET-0023-PCMF</field>
-        <field name="Footprint">SOT230P700X180-4N</field>
+        <field name="Footprint">SamacSys_Parts:SOT230P700X180-4N</field>
         <field name="Datasheet">https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf</field>
         <field name="Description">MOSFET MOSFET BVDSS: 41V-60V</field>
       </fields>
@@ -4650,7 +4658,7 @@
     <comp ref="R11">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -4658,7 +4666,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -4676,16 +4684,16 @@
     <comp ref="R12">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -4702,7 +4710,7 @@
     <comp ref="R13">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -4710,7 +4718,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -4728,16 +4736,16 @@
     <comp ref="R14">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -4754,7 +4762,7 @@
     <comp ref="R15">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -4762,7 +4770,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -4780,16 +4788,16 @@
     <comp ref="R16">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -4806,7 +4814,7 @@
     <comp ref="R17">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -4814,7 +4822,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -4832,16 +4840,16 @@
     <comp ref="R18">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -4858,7 +4866,7 @@
     <comp ref="R19">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -4866,7 +4874,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -4884,16 +4892,16 @@
     <comp ref="R20">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -4910,7 +4918,7 @@
     <comp ref="R21">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -4918,7 +4926,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -4936,16 +4944,16 @@
     <comp ref="R22">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -4962,7 +4970,7 @@
     <comp ref="R23">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -4970,7 +4978,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -4988,16 +4996,16 @@
     <comp ref="R24">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -5014,7 +5022,7 @@
     <comp ref="R25">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -5022,7 +5030,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -5040,16 +5048,16 @@
     <comp ref="R26">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -5066,7 +5074,7 @@
     <comp ref="R27">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -5074,7 +5082,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -5092,16 +5100,16 @@
     <comp ref="R28">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -5118,7 +5126,7 @@
     <comp ref="R29">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0124-100K</field>
@@ -5126,7 +5134,7 @@
         <field name="Manufacturer Part Number">AT0805FRE07100KL</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -5144,16 +5152,16 @@
     <comp ref="R30">
       <value>22K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <description>22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0520-22KR</field>
         <field name="Manufacturer Part Number">CRCW080522K0FKEA</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="Config"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
+        <field name="Description">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0520-22KR"/>
@@ -5170,15 +5178,15 @@
     <comp ref="R76">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5194,15 +5202,15 @@
     <comp ref="R77">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5218,15 +5226,15 @@
     <comp ref="R78">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5242,15 +5250,15 @@
     <comp ref="R79">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5266,15 +5274,15 @@
     <comp ref="R80">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5290,15 +5298,15 @@
     <comp ref="R81">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5314,15 +5322,15 @@
     <comp ref="R82">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5338,15 +5346,15 @@
     <comp ref="R83">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5362,15 +5370,15 @@
     <comp ref="R84">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5386,15 +5394,15 @@
     <comp ref="R85">
       <value>750R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0518-750R</field>
         <field name="Manufacturer Part Number">RC0805FR-07750RL</field>
         <field name="Manufacturer">YAGEO</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0518-750R"/>
@@ -5410,15 +5418,15 @@
     <comp ref="R109">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -5434,15 +5442,15 @@
     <comp ref="R110">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -5458,15 +5466,15 @@
     <comp ref="R111">
       <value>2K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</datasheet>
+      <description>2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0519-2KR</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
         <field name="Manufacturer Part Number">ERJ-P06F2001V</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</field>
+        <field name="Description">2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0519-2KR"/>
@@ -5482,15 +5490,15 @@
     <comp ref="R112">
       <value>2K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</datasheet>
+      <description>2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0519-2KR</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
         <field name="Manufacturer Part Number">ERJ-P06F2001V</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</field>
+        <field name="Description">2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0519-2KR"/>
@@ -5506,15 +5514,15 @@
     <comp ref="R113">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -5530,15 +5538,15 @@
     <comp ref="R114">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -5554,15 +5562,15 @@
     <comp ref="R115">
       <value>2K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</datasheet>
+      <description>2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0519-2KR</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
         <field name="Manufacturer Part Number">ERJ-P06F2001V</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</field>
+        <field name="Description">2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0519-2KR"/>
@@ -5578,15 +5586,15 @@
     <comp ref="R116">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -5602,15 +5610,15 @@
     <comp ref="R117">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -5626,15 +5634,15 @@
     <comp ref="R118">
       <value>2K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</datasheet>
+      <description>2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0519-2KR</field>
         <field name="Manufacturer">Panasonic Electronic Components</field>
         <field name="Manufacturer Part Number">ERJ-P06F2001V</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</field>
+        <field name="Description">2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0519-2KR"/>
@@ -5650,15 +5658,15 @@
     <comp ref="R119">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
@@ -5674,15 +5682,15 @@
     <comp ref="R120">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0122-10K</field>
         <field name="Manufacturer Part Number">RC0805FR-0710KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Realtra Part Number" value="R-RES-0122-10K"/>
