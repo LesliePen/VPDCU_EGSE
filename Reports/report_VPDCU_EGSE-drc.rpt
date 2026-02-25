@@ -1,5 +1,5 @@
 ** Drc report for VPDCU_EGSE.kicad_pcb **
-** Created on 2026-02-20T13:57:50+0000 **
+** Created on 2026-02-25T15:15:04+0000 **
 
 ** Found 113 DRC violations **
 [lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
@@ -344,7 +344,7 @@
 
 ** Found 0 unconnected pads **
 
-** Found 10 Footprint errors **
+** Found 12 Footprint errors **
 [net_conflict]: No pad found for pin MP in schematic.
     ; warning
     @(164.0 mm, 256.0 mm): Footprint H1
@@ -357,21 +357,29 @@
 [net_conflict]: No pad found for pin MP in schematic.
     ; warning
     @(476.0 mm, 114.0 mm): Footprint H4
-[footprint_symbol_mismatch]: 10090926_P154XLF:AMPHENOL_10090926-P154XLF doesn't match footprint given by symbol (Library:AMPHENOL_10090926-P154XLF).
+[net_conflict]: No pad found for pin MP in schematic.
     ; warning
-    @(468.5 mm, 147.5 mm): Footprint J12
+    @(164.0 mm, 185.0 mm): Footprint H5
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(268.0 mm, 256.0 mm): Footprint H6
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(372.0 mm, 256.0 mm): Footprint H7
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(476.0 mm, 185.0 mm): Footprint H8
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(391.0 mm, 114.0 mm): Footprint H9
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(316.0 mm, 114.0 mm): Footprint H10
+[net_conflict]: No pad found for pin MP in schematic.
+    ; warning
+    @(241.0 mm, 114.0 mm): Footprint H11
 [net_conflict]: No pad found for pin 0 in schematic.
     ; warning
     @(468.5 mm, 147.5 mm): Footprint J12
-[missing_footprint]: Missing footprint T7 (TestPoint)
-    ; warning
-[missing_footprint]: Missing footprint T8 (TestPoint)
-    ; warning
-[extra_footprint]: Extra footprint
-    ; warning
-    @(244.0 mm, 241.0 mm): Footprint VDCU_28V
-[extra_footprint]: Extra footprint
-    ; warning
-    @(367.5 mm, 235.0 mm): Footprint LD9
 
 ** End of Report **
