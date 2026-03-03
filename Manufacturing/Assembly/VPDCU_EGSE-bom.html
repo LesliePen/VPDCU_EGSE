@@ -1,0 +1,587 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Bill of Materials</title>
+<style>
+ .cell-title { vertical-align: bottom; }
+ .cell-info { vertical-align: top; padding: 1em;}
+ .cell-extra-info { vertical-align: top; padding: 1em;}
+ .cell-stats { vertical-align: top; padding: 1em;}
+ .title { font-size:2.5em; font-weight: bold; }
+ .subtitle { font-size:1.5em; font-weight: bold; }
+ .h2 { font-size:1.5em; font-weight: bold; }
+ .td-empty0 { text-align: center; background-color: #F57676;}
+ .td-gen0 { text-align: center; background-color: #DCF5E4;}
+ .td-kicad0 { text-align: center; background-color: #F5DCA9;}
+ .td-user0 { text-align: center; background-color: #DCEFF5;}
+ .td-empty1 { text-align: center; background-color: #FF8080;}
+ .td-gen1 { text-align: center; background-color: #E6FFEE;}
+ .td-kicad1 { text-align: center; background-color: #FFE6B3;}
+ .td-user1 { text-align: center; background-color: #E6F9FF;}
+ .td-nocolor { text-align: center; }
+ .color-ref { margin: 25px 0; }
+ .color-ref th { text-align: left }
+ .color-ref td { padding: 5px 20px; }
+ .head-table { margin-bottom: 2em; }
+ .centered-checkmark { font-size: 30vw; text-align: center; color: green; }
+ .tg-sort-header::-moz-selection{background:0 0}
+ .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
+ .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
+                       border-color:#ffffff transparent;visibility:hidden;opacity:.6}
+ .tg-sort-header:hover:after{visibility:visible}
+ .tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:1}
+ .tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: #0e4e8e; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid #0e4e8e; }
+ .content-table * tr:hover > td { background-color: @bgl@ !important }
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: @bg@; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid @bg@; }
+ .content-table * tr:hover > td { background-color: #3e7ebe !important }
+</style>
+</head>
+<body>
+<table class="head-table">
+<tr>
+ <td rowspan="2">
+ </td>
+ <td colspan="2" class="cell-title">
+  <div class="title">Bill of Materials</div>
+ </td>
+</tr>
+<tr>
+ <td class="cell-info">
+   <b>Schematic</b>: VPDCU_EGSE<br>
+   <b>Variant</b>: CHECKED<br>
+   <b>Revision</b>: + (Unreleased)<br>
+   <b>Date</b>: 2025-01-12<br>
+   <b>KiCad Version</b>: 9.0.7+1<br>
+ </td>
+ <td class="cell-stats">
+   <b>Component Groups</b>: 25<br>
+   <b>Component Count</b>: 154 (per PCB)<br>
+
+   <b>Fitted Components</b>: 153 (per PCB)<br>
+   <b>Number of PCBs</b>: 1<br>
+   <b>Total Components</b>: 153 (for 1 PCBs)<br>
+ </td>
+</tr>
+</table>
+<h2>Component Groups</h2>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th class="th-gen">Row</th>
+   <th class="th-user">REALTRA Part Number</th>
+   <th class="th-user">Manufacturer Part Number</th>
+   <th class="th-gen">Quantity Per PCB</th>
+   <th class="th-user">Description</th>
+   <th class="th-kicad">References</th>
+   <th class="th-kicad">Value</th>
+   <th class="th-kicad">Datasheet</th>
+   <th class="th-kicad">Footprint</th>
+   <th class="th-user">Manufacturer</th>
+   <th class="th-user">Supplier Part Number</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="0">
+   <td class="td-gen0">1</td>
+   <td class="td-user0">R-CAP-0051-100N</td>
+   <td class="td-user0">KGM15BR71H104JT</td>
+   <td class="td-gen0">4</td>
+   <td class="td-user0">Unpolarized capacitor; 0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</td>
+   <td class="td-kicad0"><div id="C37"></div><div id="C36"></div><div id="C35"></div><div id="C34"></div>C34 C35 C36 C37</td>
+   <td class="td-kicad0">100n</td>
+   <td class="td-kicad0"><a href="https://datasheets.kyocera-avx.com/KGM_X7R.pdf">https://datasheets.kyocera-avx.com/KGM_X7R.pdf</a></td>
+   <td class="td-kicad0">C_0603_1608Metric</td>
+   <td class="td-user0">KYOCERA AVX</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="1">
+   <td class="td-gen1">2</td>
+   <td class="td-user1">R-CAP-0241-1uF</td>
+   <td class="td-user1">GCJ31CR72A105KA01L</td>
+   <td class="td-gen1">5</td>
+   <td class="td-user1">Unpolarized capacitor</td>
+   <td class="td-kicad1"><div id="C7"></div><div id="C6"></div><div id="C5"></div><div id="C4"></div><div id="C3"></div>C3 C4 C5 C6 C7</td>
+   <td class="td-kicad1">1uF</td>
+   <td class="td-kicad1"><a href="https://pim.murata.com/en-sg/pim/details/?partNum=GCJ31CR72A105KA01%23&displayChangeClass=productDetailPrint">https://pim.murata.com/en-sg/pim/details/?partNum=GCJ31CR72A105KA01%23&displayChangeClass=productDetailPrint</a></td>
+   <td class="td-kicad1">C_1206_3216Metric</td>
+   <td class="td-user1">Murata Electronics</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="2">
+   <td class="td-gen0">3</td>
+   <td class="td-user0">R-ICX-0109-XCVR</td>
+   <td class="td-user0">MAX232EIDR</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">Dual RS-232 Driver/Receiver with IEC61000-4-2  Protection</td>
+   <td class="td-kicad0"><div id="IC1"></div>IC1</td>
+   <td class="td-kicad0">MAX232EIDR</td>
+   <td class="td-kicad0"><a href="http://www.ti.com/lit/gpn/max232e">http://www.ti.com/lit/gpn/max232e</a></td>
+   <td class="td-kicad0">SOIC127P600X175-16N</td>
+   <td class="td-user0">Texas Instruments</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="3">
+   <td class="td-gen1">4</td>
+   <td class="td-user1">R-CON-1263-26PO</td>
+   <td class="td-user1">L77HDA26SD1CH4F</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">26 Position D-Sub, High Density Receptacle, Female Sockets Connector</td>
+   <td class="td-kicad1"><div id="J10"></div>J10</td>
+   <td class="td-kicad1">Conn_01x26</td>
+   <td class="td-kicad1"><a href="https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_d_sub_hd_stamped_formed_right_angle.pdf">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_d_sub_hd_stamped_formed_right_angle.pdf</a></td>
+   <td class="td-kicad1">DSUB-26-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm</td>
+   <td class="td-user1">Amphenol ICC (Commercial Products)</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="4">
+   <td class="td-gen0">5</td>
+   <td class="td-user0">R-CON-1271-15PI</td>
+   <td class="td-user0">10090926-P154XLF</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">15 Position D-Sub, High Density Plug, Male Pins Connector</td>
+   <td class="td-kicad0"><div id="J12"></div>J12</td>
+   <td class="td-kicad0">DA15_Socket_MountingHoles</td>
+   <td class="td-kicad0"><a href="https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_dsub_brochure.pdf">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_dsub_brochure.pdf</a></td>
+   <td class="td-kicad0">AMPHENOL_10090926-P154XLF</td>
+   <td class="td-user0">Amphenol ICC (FCI)</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="5">
+   <td class="td-gen1">6</td>
+   <td class="td-user1">R-CON-1265-9POS</td>
+   <td class="td-user1">DE09-SL-24</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">9 Position D-Sub Receptacle, Female Sockets Connector 250VAC ,3A,-20C ~ 85C</td>
+   <td class="td-kicad1"><div id="J15"></div>J15</td>
+   <td class="td-kicad1">DE09-SL-24</td>
+   <td class="td-kicad1"><a href="https://app.adam-tech.com/products/download/data_sheet/198472/dxxx-sl-24-data-sheet.pdf">https://app.adam-tech.com/products/download/data_sheet/198472/dxxx-sl-24-data-sheet.pdf</a></td>
+   <td class="td-kicad1">DE09SL24</td>
+   <td class="td-user1">Adam Tech</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="6">
+   <td class="td-gen0">7</td>
+   <td class="td-user0">R-CON-1270-2RVH</td>
+   <td class="td-user0">61304021121</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">Pin Header, Vertical, Board-to-Board, 2.54 mm, 2 Rows, 40 Contacts, Through Hole Straight, WR-PHD</td>
+   <td class="td-kicad0"><div id="J4"></div>J4</td>
+   <td class="td-kicad0">Digital</td>
+   <td class="td-kicad0"><a href="https://www.we-online.com/components/products/datasheet/61304021121.pdf">https://www.we-online.com/components/products/datasheet/61304021121.pdf</a></td>
+   <td class="td-kicad0">PinHeader_2x18_P2.54mm_Vertical</td>
+   <td class="td-user0">WURTH ELEKTRONIK</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="7">
+   <td class="td-gen1">8</td>
+   <td class="td-user1">R-CON-1267-BBLK</td>
+   <td class="td-user1">FCR7350B</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">Banana Jack Connector Standard Banana Solder Black Female  Through Hole, Right Angle</td>
+   <td class="td-kicad1"><div id="J14"></div>J14</td>
+   <td class="td-kicad1">FCR7350B</td>
+   <td class="td-kicad1"><a href="https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf">https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf</a></td>
+   <td class="td-kicad1">FCR7350B</td>
+   <td class="td-user1">CLIFF ELECTRONIC COMPONENTS</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="8">
+   <td class="td-gen0">9</td>
+   <td class="td-user0">R-CON-1266-BRED</td>
+   <td class="td-user0">FCR7350R</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">CLIFF ELECTRONIC COMPONENTS - FCR7350R - SOCKET, PCB, 4MM, R/A, S16N-PC, RED</td>
+   <td class="td-kicad0"><div id="J13"></div>J13</td>
+   <td class="td-kicad0">FCR7350R</td>
+   <td class="td-kicad0"><a href="http://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf">http://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf</a></td>
+   <td class="td-kicad0">FCR7350R</td>
+   <td class="td-user0">CLIFF ELECTRONIC COMPONENTS</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="9">
+   <td class="td-gen1">10</td>
+   <td class="td-user1">R-CON-1264-15PO</td>
+   <td class="td-user1">L17HTHES4R1C</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">Dsub, Stamped Signal 3A, Right Angle PCB Thru Hole, Hight Temp High Density, FP=8.89mm (0.350in), 15 Socket, Bright Tin Shell, Flash Gold, 4-40 Rear Insert, Ground Tab&Boardlock, Plastic Tray, Close Back</td>
+   <td class="td-kicad1"><div id="J11"></div>J11</td>
+   <td class="td-kicad1">L17HTHES4R1C</td>
+   <td class="td-kicad1"><a href="https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l17hthxs4rxc.p">https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l17hthxs4rxc.p</a></td>
+   <td class="td-kicad1">L17HTHES4R1C</td>
+   <td class="td-user1">Amphenol Communications Solutions</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="10">
+   <td class="td-gen0">11</td>
+   <td class="td-user0">R-CON-1262-VTBH</td>
+   <td class="td-user0">OSTOQ025450</td>
+   <td class="td-gen0">10</td>
+   <td class="td-user0">TERM BLOCK HDR 2POS VERT 5.08MM</td>
+   <td class="td-kicad0"><div id="J24"></div><div id="J23"></div><div id="J22"></div><div id="J21"></div><div id="J20"></div><div id="J19"></div><div id="J18"></div><div id="J17"></div><div id="J16"></div><div id="J5"></div>J5 J16 J17 J18 J19 J20 J21 J22 J23 J24</td>
+   <td class="td-kicad0">OSTOQ025450</td>
+   <td class="td-kicad0"><a href="https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf">https://www.on-shore.com/wp-content/uploads/OSTOQXX5450.pdf</a></td>
+   <td class="td-kicad0">SHDR2W100P0X508_1X2_1216X860X1230P</td>
+   <td class="td-user0">On Shore Technology Inc.</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="11">
+   <td class="td-gen1">12</td>
+   <td class="td-user1">R-CON-1269-SH12</td>
+   <td class="td-user1">61301211121</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 12 Contacts, Through Hole Straight, WR-PHD</td>
+   <td class="td-kicad1"><div id="J6"></div>J6</td>
+   <td class="td-kicad1">PWM</td>
+   <td class="td-kicad1"><a href="https://www.we-online.com/components/products/datasheet/61301211121.pdf">https://www.we-online.com/components/products/datasheet/61301211121.pdf</a></td>
+   <td class="td-kicad1">PinHeader_1x10_P2.54mm_Vertical</td>
+   <td class="td-user1">WURTH ELEKTRONIK</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="12">
+   <td class="td-gen0">13</td>
+   <td class="td-user0">R-CON-1268-SHV8</td>
+   <td class="td-user0">61300811121</td>
+   <td class="td-gen0">6</td>
+   <td class="td-user0">Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
+   <td class="td-kicad0"><div id="J9"></div><div id="J8"></div><div id="J7"></div><div id="J3"></div><div id="J2"></div><div id="J1"></div>J1 J2 J3 J7 J8 J9</td>
+   <td class="td-kicad0">Power</td>
+   <td class="td-kicad0"><a href="https://www.we-online.com/components/products/datasheet/61300811121.pdf">https://www.we-online.com/components/products/datasheet/61300811121.pdf</a></td>
+   <td class="td-kicad0">PinHeader_1x08_P2.54mm_Vertical</td>
+   <td class="td-user0">WURTH ELEKTRONIK</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="13">
+   <td class="td-gen1">14</td>
+   <td class="td-user1">R-SWI-0002-RESW</td>
+   <td class="td-user1">OJE-SH-105LMH,000</td>
+   <td class="td-gen1">10</td>
+   <td class="td-user1">General Purpose Relay SPST-NO (1 Form A) 5VDC Coil Through Hole</td>
+   <td class="td-kicad1"><div id="K10"></div><div id="K9"></div><div id="K8"></div><div id="K7"></div><div id="K6"></div><div id="K5"></div><div id="K4"></div><div id="K3"></div><div id="K2"></div><div id="K1"></div>K1 K2 K3 K4 K5 K6 K7 K8 K9 K10</td>
+   <td class="td-kicad1">OJE-SH-105LMH,000</td>
+   <td class="td-kicad1"><a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=OJ_OJE_series_relay_data_sheet_E&DocType=Data%20Sheet&DocLang=English&PartCntxt=1461403-3&DocFormat=pdf">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=OJ_OJE_series_relay_data_sheet_E&DocType=Data%20Sheet&DocLang=English&PartCntxt=1461403-3&DocFormat=pdf</a></td>
+   <td class="td-kicad1">OJESH105LMH000</td>
+   <td class="td-user1">TE Connectivity</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="14">
+   <td class="td-gen0">15</td>
+   <td class="td-user0">R-SWI-0003-PRSW</td>
+   <td class="td-user0">VOR1003M4T</td>
+   <td class="td-gen0">10</td>
+   <td class="td-user0">Solid State SPST-NO (1 Form A) 4-SMD, Gull Wing</td>
+   <td class="td-kicad0"><div id="K20"></div><div id="K19"></div><div id="K18"></div><div id="K17"></div><div id="K16"></div><div id="K15"></div><div id="K14"></div><div id="K13"></div><div id="K12"></div><div id="K11"></div>K11 K12 K13 K14 K15 K16 K17 K18 K19 K20</td>
+   <td class="td-kicad0">VOR1003M4T</td>
+   <td class="td-kicad0"><a href="https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6">https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VOR1003M4T/25973730?msockid=3bdc366bbe0663d83c1223c0bf3662a6</a></td>
+   <td class="td-kicad0">VOR1003M4T</td>
+   <td class="td-user0">Vishay</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="15">
+   <td class="td-gen1">16</td>
+   <td class="td-user1">R-FET-0023-PCMF</td>
+   <td class="td-user1">DMP6185SEQ-13</td>
+   <td class="td-gen1">4</td>
+   <td class="td-user1">MOSFET MOSFET BVDSS: 41V-60V</td>
+   <td class="td-kicad1"><div id="Q34"></div><div id="Q32"></div><div id="Q30"></div><div id="Q27"></div>Q27 Q30 Q32 Q34</td>
+   <td class="td-kicad1">DMP6185SEQ-13</td>
+   <td class="td-kicad1"><a href="https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf">https://www.diodes.com//assets/Datasheets/DMP6185SEQ.pdf</a></td>
+   <td class="td-kicad1">SOT230P700X180-4N</td>
+   <td class="td-user1">Diodes Incorporated</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="16">
+   <td class="td-gen0">17</td>
+   <td class="td-user0">R-FET-0021-NCMF</td>
+   <td class="td-user0">IRLML2060TRPBF</td>
+   <td class="td-gen0">17</td>
+   <td class="td-user0">1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23</td>
+   <td class="td-kicad0"><div id="Q33"></div><div id="Q31"></div><div id="Q29"></div><div id="Q28"></div><div id="Q24"></div><div id="Q23"></div><div id="Q22"></div><div id="Q17"></div><div id="Q16"></div><div id="Q15"></div><div id="Q14"></div><div id="Q13"></div><div id="Q12"></div><div id="Q11"></div><div id="Q10"></div><div id="Q9"></div><div id="Q4"></div>Q4 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q16 Q17 Q22 Q23 Q24 Q28 Q29 Q31 Q33</td>
+   <td class="td-kicad0">IRLML2060</td>
+   <td class="td-kicad0"><a href="https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee">https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee</a></td>
+   <td class="td-kicad0">SOT-23</td>
+   <td class="td-user0">Infineon Technologies</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="17">
+   <td class="td-gen1">18</td>
+   <td class="td-user1">R-FET-0022-NCTO</td>
+   <td class="td-user1">IRLZ44NPBF</td>
+   <td class="td-gen1">1</td>
+   <td class="td-user1">47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB</td>
+   <td class="td-kicad1"><div id="Q3"></div>Q3</td>
+   <td class="td-kicad1">IRLZ44N</td>
+   <td class="td-kicad1"><a href="http://www.irf.com/product-info/datasheets/data/irlz44n.pdf">http://www.irf.com/product-info/datasheets/data/irlz44n.pdf</a></td>
+   <td class="td-kicad1">TO-220-3_Horizontal_TabDown</td>
+   <td class="td-user1">Infineon Technologies</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="18">
+   <td class="td-gen0">19</td>
+   <td class="td-user0">R-RES-0388-100R</td>
+   <td class="td-user0">CRCW0805100RFKEAHP</td>
+   <td class="td-gen0">21</td>
+   <td class="td-user0">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</td>
+   <td class="td-kicad0"><div id="R62"></div><div id="R57"></div><div id="R56"></div><div id="R41"></div><div id="R40"></div><div id="R39"></div><div id="R38"></div><div id="R36"></div><div id="R35"></div><div id="R34"></div><div id="R33"></div><div id="R10"></div><div id="R9"></div><div id="R8"></div><div id="R7"></div><div id="R6"></div><div id="R5"></div><div id="R4"></div><div id="R3"></div><div id="R2"></div><div id="R1"></div>R1 R2 R3 R4 R5 R6 R7 R8 R9 R10 R33 R34 R35 R36 R38 R39 R40 R41 R56 R57 R62</td>
+   <td class="td-kicad0">100R</td>
+   <td class="td-empty0">~</td>
+   <td class="td-kicad0">R_0805_2012Metric</td>
+   <td class="td-user0">VISHAY</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="19">
+   <td class="td-gen1">20</td>
+   <td class="td-user1">R-RES-0518-750R</td>
+   <td class="td-user1">RC0805FR-07750RL</td>
+   <td class="td-gen1">10</td>
+   <td class="td-user1">750 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</td>
+   <td class="td-kicad1"><div id="R85"></div><div id="R84"></div><div id="R83"></div><div id="R82"></div><div id="R81"></div><div id="R80"></div><div id="R79"></div><div id="R78"></div><div id="R77"></div><div id="R76"></div>R76 R77 R78 R79 R80 R81 R82 R83 R84 R85</td>
+   <td class="td-kicad1">750R</td>
+   <td class="td-kicad1"><a href="https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</a></td>
+   <td class="td-kicad1">R_0805_2012Metric</td>
+   <td class="td-user1">YAGEO</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="20">
+   <td class="td-gen0">21</td>
+   <td class="td-user0">R-RES-0519-2KR</td>
+   <td class="td-user0">ERJ-P06F2001V</td>
+   <td class="td-gen0">4</td>
+   <td class="td-user0">2 kOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</td>
+   <td class="td-kicad0"><div id="R118"></div><div id="R115"></div><div id="R112"></div><div id="R111"></div>R111 R112 R115 R118</td>
+   <td class="td-kicad0">2K</td>
+   <td class="td-kicad0"><a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</a></td>
+   <td class="td-kicad0">R_0805_2012Metric</td>
+   <td class="td-user0">Panasonic Electronic Components</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="21">
+   <td class="td-gen1">22</td>
+   <td class="td-user1">R-RES-0122-10K</td>
+   <td class="td-user1">RC0805FR-0710KL</td>
+   <td class="td-gen1">19</td>
+   <td class="td-user1">10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</td>
+   <td class="td-kicad1"><div id="R120"></div><div id="R119"></div><div id="R117"></div><div id="R116"></div><div id="R114"></div><div id="R113"></div><div id="R110"></div><div id="R109"></div><div id="R75"></div><div id="R74"></div><div id="R73"></div><div id="R72"></div><div id="R71"></div><div id="R70"></div><div id="R69"></div><div id="R68"></div><div id="R67"></div><div id="R66"></div><div id="R65"></div>R65 R66 R67 R68 R69 R70 R71 R72 R73 R74 R75 R109 R110 R113 R114 R116 R117 R119 R120</td>
+   <td class="td-kicad1">10K</td>
+   <td class="td-kicad1"><a href="https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</a></td>
+   <td class="td-kicad1">R_0805_2012Metric</td>
+   <td class="td-user1">Yageo</td>
+   <td class="td-empty1"></td>
+  </tr>
+  <tr id="22">
+   <td class="td-gen0">23</td>
+   <td class="td-user0">R-RES-0520-22KR</td>
+   <td class="td-user0">CRCW080522K0FKEA</td>
+   <td class="td-gen0">10</td>
+   <td class="td-user0">22 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</td>
+   <td class="td-kicad0"><div id="R30"></div><div id="R28"></div><div id="R26"></div><div id="R24"></div><div id="R22"></div><div id="R20"></div><div id="R18"></div><div id="R16"></div><div id="R14"></div><div id="R12"></div>R12 R14 R16 R18 R20 R22 R24 R26 R28 R30</td>
+   <td class="td-kicad0">22K</td>
+   <td class="td-kicad0"><a href="https://www.vishay.com/docs/20035/dcrcwe3.pdf">https://www.vishay.com/docs/20035/dcrcwe3.pdf</a></td>
+   <td class="td-kicad0">R_0805_2012Metric</td>
+   <td class="td-user0">Vishay Dale</td>
+   <td class="td-empty0"></td>
+  </tr>
+  <tr id="23">
+   <td class="td-gen1">24</td>
+   <td class="td-user1">R-RES-0124-100K</td>
+   <td class="td-user1">AT0805FRE07100KL</td>
+   <td class="td-gen1">13</td>
+   <td class="td-user1">Resistor</td>
+   <td class="td-kicad1"><div id="R44"></div><div id="R43"></div><div id="R42"></div><div id="R29"></div><div id="R27"></div><div id="R25"></div><div id="R23"></div><div id="R21"></div><div id="R19"></div><div id="R17"></div><div id="R15"></div><div id="R13"></div><div id="R11"></div>R11 R13 R15 R17 R19 R21 R23 R25 R27 R29 R42 R43 R44</td>
+   <td class="td-kicad1">100K</td>
+   <td class="td-kicad1"><a href="https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf">https://www.mouser.ie/datasheet/3/508/1/PYU_AT_51_ROHS_L.pdf</a></td>
+   <td class="td-kicad1">R_0805_2012Metric</td>
+   <td class="td-user1">YAGEO</td>
+   <td class="td-empty1"></td>
+  </tr>
+ </tbody>
+</table>
+<h2>Optional components (DNF=Do Not Fit)</h2>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th class="th-gen">Row</th>
+   <th class="th-user">REALTRA Part Number</th>
+   <th class="th-user">Manufacturer Part Number</th>
+   <th class="th-gen">Quantity Per PCB</th>
+   <th class="th-user">Description</th>
+   <th class="th-kicad">References</th>
+   <th class="th-kicad">Value</th>
+   <th class="th-kicad">Datasheet</th>
+   <th class="th-kicad">Footprint</th>
+   <th class="th-user">Manufacturer</th>
+   <th class="th-user">Supplier Part Number</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="24">
+   <td class="td-gen0">1</td>
+   <td class="td-user0">R-SWI-0001-ROSW</td>
+   <td class="td-user0">CK1059</td>
+   <td class="td-gen0">1</td>
+   <td class="td-user0">Rotary switch 1x8, SP8T with mount point</td>
+   <td class="td-kicad0"><div id="SW1"></div>SW1</td>
+   <td class="td-kicad0">SW_Rotary_1x9_MP</td>
+   <td class="td-kicad0"><a href="http://www.farnell.com/datasheets/2634482.pdf">http://www.farnell.com/datasheets/2634482.pdf</a></td>
+   <td class="td-kicad0">CK1059</td>
+   <td class="td-user0">Lorlin</td>
+   <td class="td-empty0"></td>
+  </tr>
+ </tbody>
+</table>
+<table class="color-ref">
+<tr><th>Color reference for columns:</th></tr>
+<tr><td class="td-kicad0">KiCad Fields (default)</td></tr>
+<tr><td class="td-gen0">Generated Fields</td></tr>
+<tr><td class="td-user0">User Fields</td></tr>
+<tr><td class="td-empty0">Empty Fields</td></tr>
+</table>
+<script charset="utf-8">
+  var TGSort = window.TGSort || function(n) {
+    "use strict";
+    function r(n) { return n ? n.length : 0 }
+    function t(n, t, e, o = 0) { for (e = r(n); o < e; ++o) t(n[o], o) }
+    function e(n) { return n.split("").reverse().join("") }
+    function o(n) {
+      var e = n[0];
+      return t(n, function(n) {
+        for (; !n.startsWith(e);) e = e.substring(0, r(e) - 1)
+      }), r(e)
+    }
+    function u(n, r, e = []) {
+      return t(n, function(n) {
+        r(n) && e.push(n)
+      }), e
+    }
+    var a = parseFloat;
+    function i(n, r) {
+      return function(t) {
+        var e = "";
+        return t.replace(n, function(n, t, o) {
+          return e = t.replace(r, "") + "." + (o || "").substring(1)
+        }), a(e)
+      }
+    }
+    var s = i(/^(?:\s*)([+-]?(?:\d+)(?:,\d{3})*)(\.\d*)?$/g, /,/g),
+      c = i(/^(?:\s*)([+-]?(?:\d+)(?:\.\d{3})*)(,\d*)?$/g, /\./g);
+    function f(n) {
+      var t = a(n);
+      return !isNaN(t) && r("" + t) + 1 >= r(n) ? t : NaN
+    }
+    function d(n) {
+      var e = [],
+        o = n;
+      return t([f, s, c], function(u) {
+        var a = [],
+          i = [];
+        t(n, function(n, r) {
+          r = u(n), a.push(r), r || i.push(n)
+        }), r(i) < r(o) && (o = i, e = a)
+      }), r(u(o, function(n) {
+        return n == o[0]
+      })) == r(o) ? e : []
+    }
+    function v(n) {
+      if ("TABLE" == n.nodeName) {
+        for (var a = function(r) {
+            var e, o, u = [],
+              a = [];
+            return function n(r, e) {
+              e(r), t(r.childNodes, function(r) {
+                n(r, e)
+              })
+            }(n, function(n) {
+              "TR" == (o = n.nodeName) ? (e = [], u.push(e), a.push(n)) : "TD" != o && "TH" != o || e.push(n)
+            }), [u, a]
+          }(), i = a[0], s = a[1], c = r(i), f = c > 1 && r(i[0]) < r(i[1]) ? 1 : 0, v = f + 1, p = i[f], h = r(p), l = [], g = [], N = [], m = v; m < c; ++m) {
+          for (var T = 0; T < h; ++T) {
+            r(g) < h && g.push([]);
+            var C = i[m][T],
+              L = C.textContent || C.innerText || "";
+            g[T].push(L.trim())
+          }
+          N.push(m - v)
+        }
+        t(p, function(n, t) {
+          l[t] = 0;
+          var a = n.classList;
+          a.add("tg-sort-header"), n.addEventListener("click", function() {
+            var n = l[t];
+            ! function() {
+              for (var n = 0; n < h; ++n) {
+                var r = p[n].classList;
+                r.remove("tg-sort-asc"), r.remove("tg-sort-desc"), l[n] = 0
+              }
+            }(), (n = 1 == n ? -1 : +!n) && a.add(n > 0 ? "tg-sort-asc" : "tg-sort-desc"), l[t] = n;
+            var i, f = g[t],
+              m = function(r, t) {
+                return n * f[r].localeCompare(f[t]) || n * (r - t)
+              },
+              T = function(n) {
+                var t = d(n);
+                if (!r(t)) {
+                  var u = o(n),
+                    a = o(n.map(e));
+                  t = d(n.map(function(n) {
+                    return n.substring(u, r(n) - a)
+                  }))
+                }
+                return t
+              }(f);
+            (r(T) || r(T = r(u(i = f.map(Date.parse), isNaN)) ? [] : i)) && (m = function(r, t) {
+              var e = T[r],
+                o = T[t],
+                u = isNaN(e),
+                a = isNaN(o);
+              return u && a ? 0 : u ? -n : a ? n : e > o ? n : e < o ? -n : n * (r - t)
+            });
+            var C, L = N.slice();
+            L.sort(m);
+            for (var E = v; E < c; ++E)(C = s[E].parentNode).removeChild(s[E]);
+            for (E = v; E < c; ++E) C.appendChild(s[v + L[E - v]])
+          })
+        })
+      }
+    }
+    n.addEventListener("DOMContentLoaded", function() {
+      for (var t = n.getElementsByClassName("content-table"), e = 0; e < r(t); ++e) try {
+        v(t[e])
+      } catch (n) {}
+    })
+  }(document)
+</script>
+</body></html>
