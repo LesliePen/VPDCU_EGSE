@@ -5411,7 +5411,7 @@
 		(uuid "0aaccaad-9a76-45ad-9334-6a30563191b9")
 	)
 	(no_connect
-		(at 60.96 170.18)
+		(at 50.8 170.18)
 		(uuid "2480f5fb-6baf-47aa-9967-a1a4f2fa99fb")
 	)
 	(no_connect
@@ -5423,7 +5423,7 @@
 		(uuid "40047078-8645-4ce7-8b73-98a1133a7f3d")
 	)
 	(no_connect
-		(at 82.55 161.29)
+		(at 72.39 161.29)
 		(uuid "40cf0fcb-291f-4870-975b-76f9c87f5a86")
 	)
 	(no_connect
@@ -5439,11 +5439,11 @@
 		(uuid "5557b051-1ae2-4166-85c2-72003ef5a8c8")
 	)
 	(no_connect
-		(at 40.64 161.29)
+		(at 30.48 161.29)
 		(uuid "59314dfc-c27a-460e-854b-363c711ba8ba")
 	)
 	(no_connect
-		(at 82.55 170.18)
+		(at 72.39 170.18)
 		(uuid "5e03bbfd-a4b6-4c91-9367-c20f4a3bf34c")
 	)
 	(no_connect
@@ -5467,7 +5467,7 @@
 		(uuid "65866cb9-aa8d-4ce7-a821-a95ba2d3807b")
 	)
 	(no_connect
-		(at 50.8 161.29)
+		(at 40.64 161.29)
 		(uuid "6ba06256-e1d2-4b86-874c-6ab57b2122d4")
 	)
 	(no_connect
@@ -5475,7 +5475,7 @@
 		(uuid "6c4945c5-4199-4a70-847d-ead95ea96acf")
 	)
 	(no_connect
-		(at 60.96 161.29)
+		(at 50.8 161.29)
 		(uuid "733bb8f5-ddfb-4ea6-914d-39270afe12dd")
 	)
 	(no_connect
@@ -5491,7 +5491,7 @@
 		(uuid "a4bd4851-be5e-4f0d-85bc-945b84283bf9")
 	)
 	(no_connect
-		(at 71.12 161.29)
+		(at 60.96 161.29)
 		(uuid "a99e6f05-3135-4c81-83e5-056d6ae23633")
 	)
 	(no_connect
@@ -5499,7 +5499,7 @@
 		(uuid "b0139116-afa2-4779-b215-8a891ada9d9b")
 	)
 	(no_connect
-		(at 91.44 166.37)
+		(at 81.28 166.37)
 		(uuid "c2b97429-ff1b-4589-a98d-08f9f77c8c91")
 	)
 	(no_connect
@@ -5519,7 +5519,7 @@
 		(uuid "d4b4bdde-2ea6-41d8-a3b8-39cc6cbe3770")
 	)
 	(no_connect
-		(at 50.8 170.18)
+		(at 40.64 170.18)
 		(uuid "d4f696d1-8e8c-431a-9ba2-7a6884d91d06")
 	)
 	(no_connect
@@ -5531,11 +5531,11 @@
 		(uuid "df679053-9a2d-4974-bcd2-4963518933fc")
 	)
 	(no_connect
-		(at 71.12 170.18)
+		(at 60.96 170.18)
 		(uuid "e6a5b94d-1770-4c9c-a88f-30c331d74bad")
 	)
 	(no_connect
-		(at 40.64 170.18)
+		(at 30.48 170.18)
 		(uuid "f566139e-6ff2-4ef6-81ce-cffab1559d13")
 	)
 	(wire
@@ -14679,7 +14679,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 82.55 167.64 0)
+		(at 72.39 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14688,7 +14688,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ea44b4f-d545-47c8-aa06-8d46b6ad78c1")
 		(property "Reference" "H10"
-			(at 85.471 165.1 0)
+			(at 75.311 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14697,7 +14697,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 85.471 167.64 0)
+			(at 75.311 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14707,7 +14707,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 82.55 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14716,7 +14716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,7 +14725,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 82.55 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14734,7 +14734,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 82.55 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14743,7 +14743,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 82.55 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15143,7 +15143,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 60.96 167.64 0)
+		(at 50.8 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15152,7 +15152,7 @@
 		(fields_autoplaced yes)
 		(uuid "23461a74-2477-4e98-8a6d-263682176000")
 		(property "Reference" "H8"
-			(at 63.881 165.1 0)
+			(at 53.721 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15161,7 +15161,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 63.881 167.64 0)
+			(at 53.721 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15171,7 +15171,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 60.96 167.64 0)
+			(at 50.8 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15180,7 +15180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 167.64 0)
+			(at 50.8 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15189,7 +15189,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 60.96 167.64 0)
+			(at 50.8 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15198,7 +15198,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 60.96 167.64 0)
+			(at 50.8 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15207,7 +15207,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 60.96 167.64 0)
+			(at 50.8 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15229,7 +15229,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 60.96 158.75 0)
+		(at 50.8 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15238,7 +15238,7 @@
 		(fields_autoplaced yes)
 		(uuid "24519d8f-85cd-482e-95ac-9e6e0056ff67")
 		(property "Reference" "H3"
-			(at 63.881 156.21 0)
+			(at 53.721 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15247,7 +15247,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 63.881 158.75 0)
+			(at 53.721 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15257,7 +15257,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 60.96 158.75 0)
+			(at 50.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15266,7 +15266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 158.75 0)
+			(at 50.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15275,7 +15275,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 60.96 158.75 0)
+			(at 50.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15284,7 +15284,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 60.96 158.75 0)
+			(at 50.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15293,7 +15293,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 60.96 158.75 0)
+			(at 50.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15421,7 +15421,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 50.8 167.64 0)
+		(at 40.64 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15430,7 +15430,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b46aa98-4b60-4dbd-b9dd-0dbb618453ab")
 		(property "Reference" "H7"
-			(at 53.721 165.1 0)
+			(at 43.561 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +15439,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 53.721 167.64 0)
+			(at 43.561 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,7 +15449,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 50.8 167.64 0)
+			(at 40.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15458,7 +15458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 167.64 0)
+			(at 40.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15467,7 +15467,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 50.8 167.64 0)
+			(at 40.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15476,7 +15476,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 50.8 167.64 0)
+			(at 40.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15485,7 +15485,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 50.8 167.64 0)
+			(at 40.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15744,7 +15744,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 82.55 158.75 0)
+		(at 72.39 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15753,7 +15753,7 @@
 		(fields_autoplaced yes)
 		(uuid "39130562-0505-47a5-a5be-e29d853adf06")
 		(property "Reference" "H5"
-			(at 85.471 156.21 0)
+			(at 75.311 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15762,7 +15762,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 85.471 158.75 0)
+			(at 75.311 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15772,7 +15772,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 82.55 158.75 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15781,7 +15781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 158.75 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15790,7 +15790,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 82.55 158.75 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15799,7 +15799,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 82.55 158.75 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15808,7 +15808,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 82.55 158.75 0)
+			(at 72.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16228,7 +16228,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 71.12 158.75 0)
+		(at 60.96 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16237,7 +16237,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d56e9e2-c749-4fa5-9a2b-daabdb37a9e6")
 		(property "Reference" "H4"
-			(at 74.041 156.21 0)
+			(at 63.881 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16246,7 +16246,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 74.041 158.75 0)
+			(at 63.881 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16256,7 +16256,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 71.12 158.75 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16265,7 +16265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 158.75 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16274,7 +16274,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 71.12 158.75 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16283,7 +16283,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 71.12 158.75 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16292,7 +16292,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 71.12 158.75 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16561,7 +16561,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 71.12 167.64 0)
+		(at 60.96 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16570,7 +16570,7 @@
 		(fields_autoplaced yes)
 		(uuid "74afa8d1-f83b-4038-9048-8fad9495da45")
 		(property "Reference" "H9"
-			(at 74.041 165.1 0)
+			(at 63.881 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16579,7 +16579,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 74.041 167.64 0)
+			(at 63.881 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16589,7 +16589,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 71.12 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16598,7 +16598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16607,7 +16607,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 71.12 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16616,7 +16616,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 71.12 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16625,7 +16625,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 71.12 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17738,7 +17738,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 91.44 163.83 0)
+		(at 81.28 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17747,7 +17747,7 @@
 		(fields_autoplaced yes)
 		(uuid "91dba985-ddba-4d4d-a05a-7969a84535e9")
 		(property "Reference" "H11"
-			(at 94.361 161.29 0)
+			(at 84.201 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17756,7 +17756,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 94.361 163.83 0)
+			(at 84.201 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17766,7 +17766,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 91.44 163.83 0)
+			(at 81.28 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17775,7 +17775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 163.83 0)
+			(at 81.28 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17784,7 +17784,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 91.44 163.83 0)
+			(at 81.28 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17793,7 +17793,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 91.44 163.83 0)
+			(at 81.28 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17802,7 +17802,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 91.44 163.83 0)
+			(at 81.28 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18486,7 +18486,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 40.64 158.75 0)
+		(at 30.48 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -18495,7 +18495,7 @@
 		(fields_autoplaced yes)
 		(uuid "b146ca8d-7df8-4ed6-b05a-8c1706f32901")
 		(property "Reference" "H1"
-			(at 43.561 156.21 0)
+			(at 33.401 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18504,7 +18504,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 43.561 158.75 0)
+			(at 33.401 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18514,7 +18514,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 40.64 158.75 0)
+			(at 30.48 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18523,7 +18523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 158.75 0)
+			(at 30.48 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18532,7 +18532,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 40.64 158.75 0)
+			(at 30.48 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18541,7 +18541,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 40.64 158.75 0)
+			(at 30.48 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18550,7 +18550,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 40.64 158.75 0)
+			(at 30.48 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19380,7 +19380,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 40.64 167.64 0)
+		(at 30.48 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19389,7 +19389,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0050996-af01-4ee8-ba57-a9cebb380db3")
 		(property "Reference" "H6"
-			(at 43.561 165.1 0)
+			(at 33.401 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19398,7 +19398,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 43.561 167.64 0)
+			(at 33.401 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19408,7 +19408,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 40.64 167.64 0)
+			(at 30.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19417,7 +19417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 167.64 0)
+			(at 30.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19426,7 +19426,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 40.64 167.64 0)
+			(at 30.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19435,7 +19435,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 40.64 167.64 0)
+			(at 30.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19444,7 +19444,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 40.64 167.64 0)
+			(at 30.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19551,7 +19551,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 50.8 158.75 0)
+		(at 40.64 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19560,7 +19560,7 @@
 		(fields_autoplaced yes)
 		(uuid "e20d0416-1b9d-4a14-955a-3ef70b2c374e")
 		(property "Reference" "H2"
-			(at 53.721 156.21 0)
+			(at 43.561 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19569,7 +19569,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 53.721 158.75 0)
+			(at 43.561 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19579,7 +19579,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 50.8 158.75 0)
+			(at 40.64 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19588,7 +19588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 158.75 0)
+			(at 40.64 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19597,7 +19597,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 50.8 158.75 0)
+			(at 40.64 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19606,7 +19606,7 @@
 			)
 		)
 		(property "Realtra Part Number" ""
-			(at 50.8 158.75 0)
+			(at 40.64 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19615,7 +19615,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 50.8 158.75 0)
+			(at 40.64 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
