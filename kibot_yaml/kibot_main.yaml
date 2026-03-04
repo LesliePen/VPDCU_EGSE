@@ -562,13 +562,13 @@ definitions:
   # Metadata ===================================================================
 
   PROJECT_NAME: VIKI_PDCU_EGSE
-  BOARD_NAME: VIKI_PDCU_EGSE_Board
+  BOARD_NAME: VIKI_PDCU_EGSE
 
   COMPANY: REALTRA SPACE SYSTEMS LIMITED
   DESIGNER: Leslie Pen
 
-  LOGO: 'Logos/dummy_logo.png'
-  GIT_URL: 'https://github.com/nguyen-v/KDT_Hierarchical_KiBot'
+  LOGO: 'Logos/REALTRA_Logo_sm.png'
+  GIT_URL: 'https://github.com/LesliePen/VPDCU_EGSE'
 
   # Preflight ==================================================================
 

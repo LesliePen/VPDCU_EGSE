@@ -3859,6 +3859,16 @@
 		)
 		(uuid "16d522c5-512d-421e-8c05-c45f9d85fd6e")
 	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 265.684 107.696 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a9f96ad-7e38-4303-ad11-d636af77f2a4")
+	)
 	(text "*44"
 		(exclude_from_sim no)
 		(at 249.21 157.845 90)
@@ -3888,6 +3898,16 @@
 			)
 		)
 		(uuid "1dc38890-d128-4fe5-9e17-c769d645a4e9")
+	)
+	(text "COMMUNICATION"
+		(exclude_from_sim no)
+		(at 265.43 133.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31dc0c85-39c3-4ea6-af25-149e5803a6c8")
 	)
 	(text "38"
 		(exclude_from_sim no)
@@ -3978,6 +3998,16 @@
 			)
 		)
 		(uuid "51d0352a-da0f-4fe2-afdb-093277d04769")
+	)
+	(text "ANALOG"
+		(exclude_from_sim no)
+		(at 252.73 133.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "571acbd8-77cb-4079-9d81-9731b50b505f")
 	)
 	(text "From PDCU"
 		(exclude_from_sim no)
@@ -4129,6 +4159,16 @@
 		)
 		(uuid "9a9abe8c-35bc-48f0-8abf-1a9a659d9b19")
 	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 265.43 77.724 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b688208-6b42-4c95-a457-b3ac72ae68dc")
+	)
 	(text "51"
 		(exclude_from_sim no)
 		(at 241.046 172.974 90)
@@ -4252,6 +4292,16 @@
 		)
 		(uuid "d57f17ff-c7bd-4b01-9846-b38cd5f7ba21")
 	)
+	(text "DIGITAL"
+		(exclude_from_sim no)
+		(at 258.318 165.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd94a809-1954-44ba-8d23-f4b1746209bf")
+	)
 	(text "A8"
 		(exclude_from_sim no)
 		(at 230.886 123.698 0)
@@ -4261,6 +4311,16 @@
 			)
 		)
 		(uuid "e2130580-1361-4480-89fc-ecf2bb234e5d")
+	)
+	(text "ANALOG"
+		(exclude_from_sim no)
+		(at 252.73 108.204 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ebc50f6e-76cf-47f4-b6d5-80a1ff513d53")
 	)
 	(text "33"
 		(exclude_from_sim no)
@@ -4301,6 +4361,16 @@
 			)
 		)
 		(uuid "fcdb9b7c-8cc2-490e-8196-33873f5a1488")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 252.73 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd4329b3-1318-4bd8-a334-12e7d3b0774c")
 	)
 	(text_box "LAYOUT NOTE:\nAdd more vias to the 28V, VTX1, and the other three high-current (up to 3A) nets, and increase the trace width accordingly."
 		(exclude_from_sim no)
@@ -9106,12 +9176,13 @@
 				)
 			)
 		)
-		(property "Value" "Power"
+		(property "Value" "61300811121"
 			(at 252.73 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
@@ -9346,12 +9417,13 @@
 				)
 			)
 		)
-		(property "Value" "PWM"
+		(property "Value" "61301211121"
 			(at 265.43 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
@@ -9527,12 +9599,13 @@
 				)
 			)
 		)
-		(property "Value" "Analog"
+		(property "Value" "61300811121"
 			(at 252.73 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
@@ -9640,12 +9713,13 @@
 				)
 			)
 		)
-		(property "Value" "PWM"
+		(property "Value" "61300811121"
 			(at 265.43 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
@@ -9752,12 +9826,13 @@
 				)
 			)
 		)
-		(property "Value" "Analog"
+		(property "Value" "61300811121"
 			(at 252.73 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
@@ -9865,12 +9940,13 @@
 				)
 			)
 		)
-		(property "Value" "Communication"
+		(property "Value" "61300811121"
 			(at 265.43 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
@@ -9979,12 +10055,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Digital"
+		(property "Value" "61304021121"
 			(at 258.699 164.973 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical"
@@ -10702,7 +10779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 78.74 0)
 			(effects
 				(font
@@ -11225,7 +11302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 106.68 0)
 			(effects
 				(font
@@ -12351,7 +12428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 104.14 0)
 			(effects
 				(font
@@ -12618,7 +12695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 101.6 0)
 			(effects
 				(font
@@ -12819,7 +12896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 76.2 0)
 			(effects
 				(font
@@ -13429,7 +13506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 88.9 0)
 			(effects
 				(font
@@ -13771,7 +13848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 83.82 0)
 			(effects
 				(font
@@ -15413,7 +15490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 86.36 0)
 			(effects
 				(font
@@ -15861,13 +15938,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "61300811121"
 			(at 304.165 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
@@ -17066,7 +17144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 99.06 0)
 			(effects
 				(font
@@ -17334,7 +17412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 290.83 81.28 0)
 			(effects
 				(font

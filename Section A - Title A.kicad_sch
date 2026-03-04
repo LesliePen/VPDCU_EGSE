@@ -14443,7 +14443,7 @@
 				)
 			)
 		)
-		(property "Value" "DA15_Socket_MountingHoles"
+		(property "Value" "10090926-P154XLF"
 			(at 62.23 121.158 90)
 			(effects
 				(font
@@ -17925,7 +17925,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x26"
+		(property "Value" "L77HDA26SD1CH4F"
 			(at 137.16 35.052 0)
 			(effects
 				(font
