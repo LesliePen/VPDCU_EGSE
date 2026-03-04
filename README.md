@@ -2,11 +2,11 @@
   <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
 </p>
 
-<h1 align="center">VIKI_PDCU_EGSE_Board</h1>
+<h1 align="center">VIKI_PDCU_EGSE</h1>
 
 <p align="center" width="100%">
-  <a href="https://github.com/nguyen-v/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="https://github.com/nguyen-v/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml/badge.svg?branch=">
+  <a href="https://github.com/LesliePen/VPDCU_EGSE/actions/workflows/ci.yaml">
+    <img alt="CI Badge" src="https://github.com/LesliePen/VPDCU_EGSE/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
 </p>
 
@@ -17,9 +17,9 @@
 ***
 
 <p align="center">
-  <img alt="3D Top Angled" src="Images/VPDCU_EGSE-angled_top.png" width="45%">
+  <img alt="3D Top Angled" src="Images/R-PCBA-VPEG-PWR-angled_top.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="3D Bottom Angled" src="Images/VPDCU_EGSE-angled_bottom.png" width="45%">
+  <img alt="3D Bottom Angled" src="Images/R-PCBA-VPEG-PWR-angled_bottom.png" width="45%">
 </p>
 
 ***

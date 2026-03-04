@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/github/workspace/VPDCU_EGSE.kicad_sch</source>
+    <source>/github/workspace/R-PCBA-VPEG-PWR.kicad_sch</source>
     <date>Date1</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
@@ -17,7 +17,7 @@
 
 5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
 	WHEN VIEWED FROM THE TOP.</textvar>
-    <textvar name="BOARD_NAME">VIKI_PDCU_EGSE_Board</textvar>
+    <textvar name="BOARD_NAME">VIKI_PDCU_EGSE</textvar>
     <textvar name="COMPANY">REALTRA SPACE SYSTEMS LIMITED</textvar>
     <textvar name="DESIGNER">Leslie Pen</textvar>
     <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
@@ -74,17 +74,17 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">83cedfd</textvar>
-    <textvar name="GIT_HASH_SCH">dad38a8</textvar>
-    <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
+    <textvar name="GIT_HASH_PCB">0828ae3</textvar>
+    <textvar name="GIT_HASH_SCH">0828ae3</textvar>
+    <textvar name="GIT_URL">https://github.com/LesliePen/VPDCU_EGSE</textvar>
     <textvar name="PROJECT_NAME">VIKI_PDCU_EGSE</textvar>
     <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">03-Mar-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-03-03</textvar>
+    <textvar name="RELEASE_DATE">04-Mar-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-03-04</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -138,7 +138,7 @@
         <company>REALTRA SPACE SYSTEMS LIMITED</company>
         <rev>+ (Unreleased)</rev>
         <date>Date2</date>
-        <source>VPDCU_EGSE.kicad_sch</source>
+        <source>R-PCBA-VPEG-PWR.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -590,7 +590,7 @@
       <tstamps>99257f67-1013-4a5a-804e-9c6e3f820fcb</tstamps>
     </comp>
     <comp ref="J10">
-      <value>Conn_01x26</value>
+      <value>L77HDA26SD1CH4F</value>
       <footprint>Connector_Dsub:DSUB-26-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm</footprint>
       <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_d_sub_hd_stamped_formed_right_angle.pdf</datasheet>
       <description>26 Position D-Sub, High Density Receptacle, Female Sockets Connector</description>
@@ -646,7 +646,7 @@
       <tstamps>8ffcdf42-1537-4474-ace8-0e4b108e78b3</tstamps>
     </comp>
     <comp ref="J12">
-      <value>DA15_Socket_MountingHoles</value>
+      <value>10090926-P154XLF</value>
       <footprint>Library:AMPHENOL_10090926-P154XLF</footprint>
       <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_dsub_brochure.pdf</datasheet>
       <description>15 Position D-Sub, High Density Plug, Male Pins Connector</description>
@@ -1751,7 +1751,7 @@
       <tstamps>5bc676cd-ddf1-41a9-94fe-ac169bacde1a</tstamps>
     </comp>
     <comp ref="J1">
-      <value>Power</value>
+      <value>61300811121</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
@@ -1775,7 +1775,7 @@
       <tstamps>00000000-0000-0000-0000-000056d71773</tstamps>
     </comp>
     <comp ref="J2">
-      <value>Analog</value>
+      <value>61300811121</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
@@ -1799,7 +1799,7 @@
       <tstamps>00000000-0000-0000-0000-000056d72f1c</tstamps>
     </comp>
     <comp ref="J3">
-      <value>Analog</value>
+      <value>61300811121</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
@@ -1823,7 +1823,7 @@
       <tstamps>00000000-0000-0000-0000-000056d73a0e</tstamps>
     </comp>
     <comp ref="J4">
-      <value>Digital</value>
+      <value>61304021121</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/61304021121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 2 Rows, 40 Contacts, Through Hole Straight, WR-PHD</description>
@@ -1847,7 +1847,7 @@
       <tstamps>00000000-0000-0000-0000-000056d743b5</tstamps>
     </comp>
     <comp ref="J6">
-      <value>PWM</value>
+      <value>61301211121</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/61301211121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 12 Contacts, Through Hole Straight, WR-PHD</description>
@@ -1871,7 +1871,7 @@
       <tstamps>00000000-0000-0000-0000-000056d72368</tstamps>
     </comp>
     <comp ref="J7">
-      <value>PWM</value>
+      <value>61300811121</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
@@ -1895,7 +1895,7 @@
       <tstamps>00000000-0000-0000-0000-000056d734d0</tstamps>
     </comp>
     <comp ref="J8">
-      <value>Communication</value>
+      <value>61300811121</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 8 Contacts, Through Hole Straight, WR-PHD</description>
@@ -1919,7 +1919,7 @@
       <tstamps>00000000-0000-0000-0000-000056d73f2c</tstamps>
     </comp>
     <comp ref="J9">
-      <value>Conn_01x06</value>
+      <value>61300811121</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/61300811121.pdf</datasheet>
       <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
@@ -2023,14 +2023,14 @@
     <comp ref="R1">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2047,14 +2047,14 @@
     <comp ref="R2">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2071,14 +2071,14 @@
     <comp ref="R3">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2095,14 +2095,14 @@
     <comp ref="R4">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2119,14 +2119,14 @@
     <comp ref="R5">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2143,14 +2143,14 @@
     <comp ref="R6">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2167,14 +2167,14 @@
     <comp ref="R7">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2191,14 +2191,14 @@
     <comp ref="R8">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2215,14 +2215,14 @@
     <comp ref="R9">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -2239,14 +2239,14 @@
     <comp ref="R10">
       <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.vishay.com/docs/20043/crcwhpe3.pdf</datasheet>
       <description>100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</description>
       <fields>
         <field name="Realtra Part Number">R-RES-0388-100R</field>
         <field name="Manufacturer">VISHAY</field>
         <field name="Manufacturer Part Number">CRCW0805100RFKEAHP</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet">https://www.vishay.com/docs/20043/crcwhpe3.pdf</field>
         <field name="Description">100 Ohms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
